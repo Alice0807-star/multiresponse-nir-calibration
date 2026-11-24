@@ -1,0 +1,520 @@
+{
+  "schema_version": 1,
+  "published_version": "V5 2026-11-24",
+  "table_count": 34,
+  "policy": "All tables are tracked, but verification levels differ. Generated files are used only with --use-recomputed; snapshot presence alone is not verification.",
+  "rounding": "Numerical cells are reconstructed at their stated display precision; merged logical cells repeat.",
+  "tables": [
+    {
+      "id": "main:1",
+      "document": "main",
+      "table_index": 1,
+      "table_label": "Table 1",
+      "preferred_sources": [
+        "configs/evaluation_index.json"
+      ],
+      "fallback_sources": [],
+      "check_class": "protocol_definition",
+      "definition": "Source size, band count, per-cell partition sizes, and selector seed lists from evaluation cells.",
+      "limitations": ""
+    },
+    {
+      "id": "main:2",
+      "document": "main",
+      "table_index": 2,
+      "table_label": "Table 2",
+      "preferred_sources": [
+        "configs/evaluation_index.json",
+        "evidence/historical_ABC/component_pair_records.json"
+      ],
+      "fallback_sources": [],
+      "check_class": "protocol_definition",
+      "definition": "A reads Sj; B/C read U; matched random panels retain Sj. Narrow caps are source quotas; wide cap is 15.",
+      "limitations": ""
+    },
+    {
+      "id": "main:3",
+      "document": "main",
+      "table_index": 3,
+      "table_label": "Table 3",
+      "preferred_sources": [
+        "generated/summary.json",
+        "generated/metrics_verification.json"
+      ],
+      "fallback_sources": [
+        "results/expected/metrics_v5.json"
+      ],
+      "check_class": "metric_summary",
+      "definition": "A/B/C macro R2, and D workflow mean plus sample SD (ddof=1) across ten complete draws.",
+      "limitations": "Generated metrics are prior archived-prediction recalculation, not newly trained models or independent validation."
+    },
+    {
+      "id": "main:4",
+      "document": "main",
+      "table_index": 4,
+      "table_label": "Table 4",
+      "preferred_sources": [
+        "generated/summary.json",
+        "generated/metrics_verification.json"
+      ],
+      "fallback_sources": [
+        "results/expected/metrics_v5.json"
+      ],
+      "check_class": "metric_summary",
+      "definition": "B-Dlow, C-Dwide, difference of range differences, and strictly higher draw counts.",
+      "limitations": "Generated metrics are prior archived-prediction recalculation, not newly trained models or independent validation."
+    },
+    {
+      "id": "main:5",
+      "document": "main",
+      "table_index": 5,
+      "table_label": "Table 5",
+      "preferred_sources": [
+        "generated/summary.json",
+        "generated/metrics_verification.json"
+      ],
+      "fallback_sources": [
+        "results/expected/metrics_v5.json"
+      ],
+      "check_class": "metric_summary",
+      "definition": "Corn selector seed 17 only, complete OOF metrics and paired differences across three partitions.",
+      "limitations": "Generated metrics are prior archived-prediction recalculation, not newly trained models or independent validation."
+    },
+    {
+      "id": "main:6",
+      "document": "main",
+      "table_index": 6,
+      "table_label": "Table 6",
+      "preferred_sources": [
+        "generated/summary.json",
+        "generated/metrics_verification.json"
+      ],
+      "fallback_sources": [
+        "results/expected/metrics_v5.json"
+      ],
+      "check_class": "metric_summary",
+      "definition": "Original-partition target RMSE and B/A, C/A percentage changes from unrounded aggregated metrics.",
+      "limitations": "Generated metrics are prior archived-prediction recalculation, not newly trained models or independent validation."
+    },
+    {
+      "id": "supplement:1",
+      "document": "supplement",
+      "table_index": 1,
+      "table_label": "Table S1",
+      "preferred_sources": [
+        "evidence/historical_ABC/component_pair_records.json"
+      ],
+      "fallback_sources": [],
+      "check_class": "saved_selection_arithmetic",
+      "definition": "Per-target component minima/maxima and C choices above the source-specific B cap.",
+      "limitations": ""
+    },
+    {
+      "id": "supplement:2",
+      "document": "supplement",
+      "table_index": 2,
+      "table_label": "Table S2",
+      "preferred_sources": [
+        "generated/summary.json",
+        "generated/metrics_verification.json"
+      ],
+      "fallback_sources": [
+        "results/expected/metrics_v5.json"
+      ],
+      "check_class": "metric_summary",
+      "definition": "All original target metrics including training-SD-normalized RMSE.",
+      "limitations": ""
+    },
+    {
+      "id": "supplement:3",
+      "document": "supplement",
+      "table_index": 3,
+      "table_label": "Table S3a",
+      "preferred_sources": [
+        "generated/summary.json",
+        "generated/metrics_verification.json"
+      ],
+      "fallback_sources": [
+        "results/expected/metrics_v5.json"
+      ],
+      "check_class": "metric_summary",
+      "definition": "Original target R2, RMSE, MAE differences and aggregated-RMSE percentage change.",
+      "limitations": ""
+    },
+    {
+      "id": "supplement:4",
+      "document": "supplement",
+      "table_index": 4,
+      "table_label": "Table S3b",
+      "preferred_sources": [
+        "generated/resampling_report.json"
+      ],
+      "fallback_sources": [
+        "evidence/fixed_prediction_resampling/expected.json"
+      ],
+      "check_class": "fixed_prediction_resampling",
+      "definition": "2.5 and 97.5 percentiles from the archived 10000 paired row resamples.",
+      "limitations": "Fixed predictions only; does not cover new selection/training uncertainty or independent samples."
+    },
+    {
+      "id": "supplement:5",
+      "document": "supplement",
+      "table_index": 5,
+      "table_label": "Table S4a",
+      "preferred_sources": [
+        "evidence/historical_ABC/component_pair_records.json"
+      ],
+      "fallback_sources": [],
+      "check_class": "saved_selection_arithmetic",
+      "definition": "Every original fold/seed/target input count, actual component choice, and C-above-cap flag.",
+      "limitations": ""
+    },
+    {
+      "id": "supplement:6",
+      "document": "supplement",
+      "table_index": 6,
+      "table_label": "Table S4b",
+      "preferred_sources": [
+        "evidence/historical_ABC/component_pair_records.json"
+      ],
+      "fallback_sources": [],
+      "check_class": "saved_selection_arithmetic",
+      "definition": "Every original fold/seed/target input count, actual component choice, and C-above-cap flag.",
+      "limitations": ""
+    },
+    {
+      "id": "supplement:7",
+      "document": "supplement",
+      "table_index": 7,
+      "table_label": "Table S7a",
+      "preferred_sources": [
+        "evidence/figure_data/candidate_curves.json"
+      ],
+      "fallback_sources": [],
+      "check_class": "saved_candidate_arithmetic",
+      "definition": "Actual choices and boundary/slope counts recomputed from the archived candidate arrays.",
+      "limitations": "Checks saved candidate scores, not their refitting or a proof of optimality."
+    },
+    {
+      "id": "supplement:8",
+      "document": "supplement",
+      "table_index": 8,
+      "table_label": "Table S7b",
+      "preferred_sources": [
+        "evidence/figure_data/candidate_curves.json"
+      ],
+      "fallback_sources": [],
+      "check_class": "saved_candidate_arithmetic",
+      "definition": "Actual choices and boundary/slope counts recomputed from the archived candidate arrays.",
+      "limitations": "Checks saved candidate scores, not their refitting or a proof of optimality."
+    },
+    {
+      "id": "supplement:9",
+      "document": "supplement",
+      "table_index": 9,
+      "table_label": "Table S7c",
+      "preferred_sources": [
+        "generated/summary.json",
+        "generated/metrics_verification.json"
+      ],
+      "fallback_sources": [
+        "results/expected/metrics_v5.json"
+      ],
+      "check_class": "metric_summary",
+      "definition": "Original per-selector-seed macro R2 and B-A, C-B; nine decimal display precision.",
+      "limitations": ""
+    },
+    {
+      "id": "supplement:10",
+      "document": "supplement",
+      "table_index": 10,
+      "table_label": "Table S8",
+      "preferred_sources": [
+        "evidence/components/selected_columns.json"
+      ],
+      "fallback_sources": [],
+      "check_class": "saved_index_jaccard",
+      "definition": "Exact set Jaccard recomputed for each seed pair within each fold and target.",
+      "limitations": "No chance correction or wavelength-neighborhood clustering; not a complete stability assessment."
+    },
+    {
+      "id": "supplement:11",
+      "document": "supplement",
+      "table_index": 11,
+      "table_label": "Table S10a",
+      "preferred_sources": [
+        "generated/summary.json",
+        "generated/metrics_verification.json",
+        "generated/full_spectrum_summary.json"
+      ],
+      "fallback_sources": [
+        "results/expected/metrics_v5.json",
+        "results/expected/full_spectrum.json"
+      ],
+      "check_class": "metric_summary_with_full_spectrum",
+      "definition": "Original C and full-spectrum background metrics and their differences.",
+      "limitations": "Full-spectrum is an original-partition background; no additional-partition full models are inferred."
+    },
+    {
+      "id": "supplement:12",
+      "document": "supplement",
+      "table_index": 12,
+      "table_label": "Table S10b",
+      "preferred_sources": [
+        "generated/summary.json",
+        "generated/metrics_verification.json",
+        "generated/full_spectrum_summary.json"
+      ],
+      "fallback_sources": [
+        "results/expected/metrics_v5.json",
+        "results/expected/full_spectrum.json"
+      ],
+      "check_class": "metric_summary_with_full_spectrum",
+      "definition": "Original C and full-spectrum background metrics and their differences.",
+      "limitations": "Full-spectrum is an original-partition background; no additional-partition full models are inferred."
+    },
+    {
+      "id": "supplement:13",
+      "document": "supplement",
+      "table_index": 13,
+      "table_label": "Table S12a",
+      "preferred_sources": [
+        "evidence/components/original_target_search_counts.json",
+        "evidence/historical_ABC/cost_accounting.json",
+        "evidence/historical_ABC/component_pair_records.json",
+        "evidence/components/full_spectrum_conditions.json"
+      ],
+      "fallback_sources": [],
+      "check_class": "archived_cost_accounting",
+      "definition": "Historical search/candidate/refit/reuse counts and stage arithmetic.",
+      "limitations": "Archived execution counts; historical searches are not rerun."
+    },
+    {
+      "id": "supplement:14",
+      "document": "supplement",
+      "table_index": 14,
+      "table_label": "Table S12b",
+      "preferred_sources": [
+        "evidence/new_phase_costs.json",
+        "configs/evaluation_index.json"
+      ],
+      "fallback_sources": [],
+      "check_class": "archived_cost_accounting",
+      "definition": "New search, calibration, refit/reuse counts and their sum.",
+      "limitations": "Counts refer to distinct stages and are not independent experiments."
+    },
+    {
+      "id": "supplement:15",
+      "document": "supplement",
+      "table_index": 15,
+      "table_label": "Table S13",
+      "preferred_sources": [
+        "evidence/tables/published_tables.json"
+      ],
+      "fallback_sources": [],
+      "check_class": "text_scope_only",
+      "definition": "Checks column definitions, named comparison rows, nonempty protocol descriptions, and this-study scope.",
+      "limitations": "Literature details are not independently rechecked in this reproduction package; not a novelty or priority proof."
+    },
+    {
+      "id": "supplement:16",
+      "document": "supplement",
+      "table_index": 16,
+      "table_label": "Table S14a",
+      "preferred_sources": [
+        "generated/summary.json",
+        "generated/metrics_verification.json"
+      ],
+      "fallback_sources": [
+        "results/expected/metrics_v5.json"
+      ],
+      "check_class": "metric_summary",
+      "definition": "Original D metrics or all new-partition arm/target metrics; each D averaged over ten workflows.",
+      "limitations": ""
+    },
+    {
+      "id": "supplement:17",
+      "document": "supplement",
+      "table_index": 17,
+      "table_label": "Table S14b",
+      "preferred_sources": [
+        "generated/summary.json",
+        "generated/metrics_verification.json"
+      ],
+      "fallback_sources": [
+        "results/expected/metrics_v5.json"
+      ],
+      "check_class": "metric_summary",
+      "definition": "Original D metrics or all new-partition arm/target metrics; each D averaged over ten workflows.",
+      "limitations": ""
+    },
+    {
+      "id": "supplement:18",
+      "document": "supplement",
+      "table_index": 18,
+      "table_label": "Table S14c",
+      "preferred_sources": [
+        "generated/summary.json",
+        "generated/metrics_verification.json"
+      ],
+      "fallback_sources": [
+        "results/expected/metrics_v5.json"
+      ],
+      "check_class": "metric_summary",
+      "definition": "Original D metrics or all new-partition arm/target metrics; each D averaged over ten workflows.",
+      "limitations": ""
+    },
+    {
+      "id": "supplement:19",
+      "document": "supplement",
+      "table_index": 19,
+      "table_label": "Table S14d",
+      "preferred_sources": [
+        "generated/summary.json",
+        "generated/metrics_verification.json"
+      ],
+      "fallback_sources": [
+        "results/expected/metrics_v5.json"
+      ],
+      "check_class": "metric_summary",
+      "definition": "Original D metrics or all new-partition arm/target metrics; each D averaged over ten workflows.",
+      "limitations": ""
+    },
+    {
+      "id": "supplement:20",
+      "document": "supplement",
+      "table_index": 20,
+      "table_label": "Table S14e",
+      "preferred_sources": [
+        "configs/evaluation_index.json",
+        "evidence/input_panels/panels.json",
+        "evidence/input_panels/random_panels.json"
+      ],
+      "fallback_sources": [],
+      "check_class": "saved_input_index_arithmetic",
+      "definition": "Per-model input quotas and ranges of U and the four-target D global unions reconstructed from saved indices.",
+      "limitations": "D only matches each model column count; the global acquisition budget is not matched."
+    },
+    {
+      "id": "supplement:21",
+      "document": "supplement",
+      "table_index": 21,
+      "table_label": "Table S15",
+      "preferred_sources": [
+        "generated/summary.json",
+        "generated/metrics_verification.json"
+      ],
+      "fallback_sources": [
+        "results/expected/metrics_v5.json"
+      ],
+      "check_class": "metric_summary",
+      "definition": "Per-seed B-A, C-B, B-Dlow and C-Dwide; D averages ten complete workflows.",
+      "limitations": ""
+    },
+    {
+      "id": "supplement:22",
+      "document": "supplement",
+      "table_index": 22,
+      "table_label": "Table S16a",
+      "preferred_sources": [
+        "generated/summary.json",
+        "generated/metrics_verification.json"
+      ],
+      "fallback_sources": [
+        "results/expected/metrics_v5.json"
+      ],
+      "check_class": "metric_summary",
+      "definition": "Every one of ten D workflow macro scores and its paired B/C difference, without selection of draws.",
+      "limitations": ""
+    },
+    {
+      "id": "supplement:23",
+      "document": "supplement",
+      "table_index": 23,
+      "table_label": "Table S16b",
+      "preferred_sources": [
+        "generated/summary.json",
+        "generated/metrics_verification.json"
+      ],
+      "fallback_sources": [
+        "results/expected/metrics_v5.json"
+      ],
+      "check_class": "metric_summary",
+      "definition": "Every one of ten D workflow macro scores and its paired B/C difference, without selection of draws.",
+      "limitations": ""
+    },
+    {
+      "id": "supplement:24",
+      "document": "supplement",
+      "table_index": 24,
+      "table_label": "Table S16c",
+      "preferred_sources": [
+        "generated/summary.json",
+        "generated/metrics_verification.json"
+      ],
+      "fallback_sources": [
+        "results/expected/metrics_v5.json"
+      ],
+      "check_class": "metric_summary",
+      "definition": "Every one of ten D workflow macro scores and its paired B/C difference, without selection of draws.",
+      "limitations": ""
+    },
+    {
+      "id": "supplement:25",
+      "document": "supplement",
+      "table_index": 25,
+      "table_label": "Table S16d",
+      "preferred_sources": [
+        "generated/summary.json",
+        "generated/metrics_verification.json"
+      ],
+      "fallback_sources": [
+        "results/expected/metrics_v5.json"
+      ],
+      "check_class": "metric_summary",
+      "definition": "Every one of ten D workflow macro scores and its paired B/C difference, without selection of draws.",
+      "limitations": ""
+    },
+    {
+      "id": "supplement:26",
+      "document": "supplement",
+      "table_index": 26,
+      "table_label": "Table S17a",
+      "preferred_sources": [
+        "configs/evaluation_index.json"
+      ],
+      "fallback_sources": [],
+      "check_class": "saved_selection_arithmetic",
+      "definition": "New-partition fold/target U size and A/B/C component choices from archived pipeline index.",
+      "limitations": ""
+    },
+    {
+      "id": "supplement:27",
+      "document": "supplement",
+      "table_index": 27,
+      "table_label": "Table S17b",
+      "preferred_sources": [
+        "configs/evaluation_index.json"
+      ],
+      "fallback_sources": [],
+      "check_class": "saved_selection_arithmetic",
+      "definition": "New-partition fold/target U size and A/B/C component choices from archived pipeline index.",
+      "limitations": ""
+    },
+    {
+      "id": "supplement:28",
+      "document": "supplement",
+      "table_index": 28,
+      "table_label": "Table S19",
+      "preferred_sources": [
+        "evidence/archived_execution_verification.json",
+        "evidence/new_phase_costs.json",
+        "configs/evaluation_index.json"
+      ],
+      "fallback_sources": [],
+      "check_class": "archived_execution_record",
+      "definition": "Archived execution report values, counts, and boolean scope statements.",
+      "limitations": "A saved report consistency check; this does not independently rerun the original candidate models or establish blind validation."
+    }
+  ]
+}

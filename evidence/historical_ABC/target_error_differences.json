@@ -1,0 +1,362 @@
+[
+  {
+    "source": "cgl",
+    "contrast": "B_minus_A",
+    "target": 0,
+    "target_name": "Casein (wt %)",
+    "rmse_absolute_delta": -0.018335990722363305,
+    "rmse_percent_change": -4.250397921136672,
+    "r2_delta": 5.61223089340368e-05,
+    "mae_absolute_delta": -0.026592915399106187,
+    "rmse_delta_percentile_interval": [
+      -0.0870770405184793,
+      0.04436250037772423
+    ],
+    "interpretation": "Fixed-prediction paired sensitivity,not validated workflow confidence or assay tolerance"
+  },
+  {
+    "source": "cgl",
+    "contrast": "B_minus_A",
+    "target": 1,
+    "target_name": "Glucose (wt %)",
+    "rmse_absolute_delta": -0.27223575809616474,
+    "rmse_percent_change": -32.143636299932886,
+    "r2_delta": 0.001401988348698202,
+    "mae_absolute_delta": -0.18606136633054754,
+    "rmse_delta_percentile_interval": [
+      -0.4071740771993233,
+      -0.13703691929935294
+    ],
+    "interpretation": "Fixed-prediction paired sensitivity,not validated workflow confidence or assay tolerance"
+  },
+  {
+    "source": "cgl",
+    "contrast": "B_minus_A",
+    "target": 2,
+    "target_name": "Lactate (wt %)",
+    "rmse_absolute_delta": -0.22856231773616803,
+    "rmse_percent_change": -34.25001543476145,
+    "r2_delta": 0.0006726001317298724,
+    "mae_absolute_delta": -0.172018616009395,
+    "rmse_delta_percentile_interval": [
+      -0.28446375599330115,
+      -0.16987616583375087
+    ],
+    "interpretation": "Fixed-prediction paired sensitivity,not validated workflow confidence or assay tolerance"
+  },
+  {
+    "source": "cgl",
+    "contrast": "B_minus_A",
+    "target": 3,
+    "target_name": "Moisture (wt %)",
+    "rmse_absolute_delta": -0.10954337054408975,
+    "rmse_percent_change": -52.69902578692327,
+    "r2_delta": 0.0018494764731734614,
+    "mae_absolute_delta": -0.08792585104985548,
+    "rmse_delta_percentile_interval": [
+      -0.130642861569009,
+      -0.08848367240827266
+    ],
+    "interpretation": "Fixed-prediction paired sensitivity,not validated workflow confidence or assay tolerance"
+  },
+  {
+    "source": "cgl",
+    "contrast": "C_minus_B",
+    "target": 0,
+    "target_name": "Casein (wt %)",
+    "rmse_absolute_delta": -0.03056836196413032,
+    "rmse_percent_change": -7.400488693000584,
+    "r2_delta": 5.7981153171571265e-05,
+    "mae_absolute_delta": -0.025334405764136925,
+    "rmse_delta_percentile_interval": [
+      -0.05926567299769302,
+      -9.513991645898056e-05
+    ],
+    "interpretation": "Fixed-prediction paired sensitivity,not validated workflow confidence or assay tolerance"
+  },
+  {
+    "source": "cgl",
+    "contrast": "C_minus_B",
+    "target": 1,
+    "target_name": "Glucose (wt %)",
+    "rmse_absolute_delta": -0.13433171655852227,
+    "rmse_percent_change": -23.37425716807392,
+    "r2_delta": 0.000523990431213428,
+    "mae_absolute_delta": -0.09532923239678875,
+    "rmse_delta_percentile_interval": [
+      -0.18614284218294036,
+      -0.08135669147537723
+    ],
+    "interpretation": "Fixed-prediction paired sensitivity,not validated workflow confidence or assay tolerance"
+  },
+  {
+    "source": "cgl",
+    "contrast": "C_minus_B",
+    "target": 2,
+    "target_name": "Lactate (wt %)",
+    "rmse_absolute_delta": -0.05484836279205957,
+    "rmse_percent_change": -12.500407002978697,
+    "r2_delta": 0.00012819231504312967,
+    "mae_absolute_delta": -0.042150666019705185,
+    "rmse_delta_percentile_interval": [
+      -0.08617681055716533,
+      -0.024460745554745332
+    ],
+    "interpretation": "Fixed-prediction paired sensitivity,not validated workflow confidence or assay tolerance"
+  },
+  {
+    "source": "cgl",
+    "contrast": "C_minus_B",
+    "target": 3,
+    "target_name": "Moisture (wt %)",
+    "rmse_absolute_delta": -0.009309347614995689,
+    "rmse_percent_change": -9.468161320275993,
+    "r2_delta": 8.69984907824195e-05,
+    "mae_absolute_delta": -0.007406455745601448,
+    "rmse_delta_percentile_interval": [
+      -0.01641557382710662,
+      -0.0024050291335871556
+    ],
+    "interpretation": "Fixed-prediction paired sensitivity,not validated workflow confidence or assay tolerance"
+  },
+  {
+    "source": "cgl",
+    "contrast": "C_minus_A",
+    "target": 0,
+    "target_name": "Casein (wt %)",
+    "rmse_absolute_delta": -0.048904352686493624,
+    "rmse_percent_change": -11.336336396576009,
+    "r2_delta": 0.00011410346210560807,
+    "mae_absolute_delta": -0.05192732116324311,
+    "rmse_delta_percentile_interval": [
+      -0.09879625992411857,
+      -0.0044301048266135274
+    ],
+    "interpretation": "Fixed-prediction paired sensitivity,not validated workflow confidence or assay tolerance"
+  },
+  {
+    "source": "cgl",
+    "contrast": "C_minus_A",
+    "target": 1,
+    "target_name": "Glucose (wt %)",
+    "rmse_absolute_delta": -0.406567474654687,
+    "rmse_percent_change": -48.00455725609013,
+    "r2_delta": 0.0019259787799116301,
+    "mae_absolute_delta": -0.2813905987273363,
+    "rmse_delta_percentile_interval": [
+      -0.549869591367223,
+      -0.2599761074000707
+    ],
+    "interpretation": "Fixed-prediction paired sensitivity,not validated workflow confidence or assay tolerance"
+  },
+  {
+    "source": "cgl",
+    "contrast": "C_minus_A",
+    "target": 2,
+    "target_name": "Lactate (wt %)",
+    "rmse_absolute_delta": -0.2834106805282276,
+    "rmse_percent_change": -42.46903110981194,
+    "r2_delta": 0.0008007924467730021,
+    "mae_absolute_delta": -0.21416928202910018,
+    "rmse_delta_percentile_interval": [
+      -0.34381315173113314,
+      -0.21825212872676394
+    ],
+    "interpretation": "Fixed-prediction paired sensitivity,not validated workflow confidence or assay tolerance"
+  },
+  {
+    "source": "cgl",
+    "contrast": "C_minus_A",
+    "target": 3,
+    "target_name": "Moisture (wt %)",
+    "rmse_absolute_delta": -0.11885271815908544,
+    "rmse_percent_change": -57.17755833147953,
+    "r2_delta": 0.001936474963955881,
+    "mae_absolute_delta": -0.09533230679545693,
+    "rmse_delta_percentile_interval": [
+      -0.1425852695652994,
+      -0.09574890246099649
+    ],
+    "interpretation": "Fixed-prediction paired sensitivity,not validated workflow confidence or assay tolerance"
+  },
+  {
+    "source": "corn",
+    "contrast": "B_minus_A",
+    "target": 0,
+    "target_name": "Moisture",
+    "rmse_absolute_delta": 0.01148443751305708,
+    "rmse_percent_change": 329.2132302213918,
+    "r2_delta": -0.0015469566471734142,
+    "mae_absolute_delta": 0.008951993670170159,
+    "rmse_delta_percentile_interval": [
+      0.009652079298156929,
+      0.013281169221118851
+    ],
+    "interpretation": "Fixed-prediction paired sensitivity,not validated workflow confidence or assay tolerance"
+  },
+  {
+    "source": "corn",
+    "contrast": "B_minus_A",
+    "target": 1,
+    "target_name": "Oil",
+    "rmse_absolute_delta": 0.002945993334893121,
+    "rmse_percent_change": 4.557477004836041,
+    "r2_delta": -0.013794636031740581,
+    "mae_absolute_delta": 0.0036598566742735636,
+    "rmse_delta_percentile_interval": [
+      -0.004225111577369577,
+      0.010272855692326326
+    ],
+    "interpretation": "Fixed-prediction paired sensitivity,not validated workflow confidence or assay tolerance"
+  },
+  {
+    "source": "corn",
+    "contrast": "B_minus_A",
+    "target": 2,
+    "target_name": "Protein",
+    "rmse_absolute_delta": -0.0024013588736203073,
+    "rmse_percent_change": -1.9231835982552958,
+    "r2_delta": 0.0026041993906509298,
+    "mae_absolute_delta": 0.001594431204121019,
+    "rmse_delta_percentile_interval": [
+      -0.019057115684668138,
+      0.013699944991052173
+    ],
+    "interpretation": "Fixed-prediction paired sensitivity,not validated workflow confidence or assay tolerance"
+  },
+  {
+    "source": "corn",
+    "contrast": "B_minus_A",
+    "target": 3,
+    "target_name": "Starch",
+    "rmse_absolute_delta": 0.01792109449440668,
+    "rmse_percent_change": 8.515268448598956,
+    "r2_delta": -0.013173899589537186,
+    "mae_absolute_delta": 0.018579329024767693,
+    "rmse_delta_percentile_interval": [
+      -0.011949955969476254,
+      0.05078482206888003
+    ],
+    "interpretation": "Fixed-prediction paired sensitivity,not validated workflow confidence or assay tolerance"
+  },
+  {
+    "source": "corn",
+    "contrast": "C_minus_B",
+    "target": 0,
+    "target_name": "Moisture",
+    "rmse_absolute_delta": -0.007847237893890852,
+    "rmse_percent_change": -52.40965119497398,
+    "r2_delta": 0.001346885759124783,
+    "mae_absolute_delta": -0.006201962991671262,
+    "rmse_delta_percentile_interval": [
+      -0.009522857629291098,
+      -0.00620537402010409
+    ],
+    "interpretation": "Fixed-prediction paired sensitivity,not validated workflow confidence or assay tolerance"
+  },
+  {
+    "source": "corn",
+    "contrast": "C_minus_B",
+    "target": 1,
+    "target_name": "Oil",
+    "rmse_absolute_delta": -0.019417129537541093,
+    "rmse_percent_change": -28.729142201938053,
+    "r2_delta": 0.0771270102203232,
+    "mae_absolute_delta": -0.014894526431510173,
+    "rmse_delta_percentile_interval": [
+      -0.025149278702858706,
+      -0.013184290838785011
+    ],
+    "interpretation": "Fixed-prediction paired sensitivity,not validated workflow confidence or assay tolerance"
+  },
+  {
+    "source": "corn",
+    "contrast": "C_minus_B",
+    "target": 2,
+    "target_name": "Protein",
+    "rmse_absolute_delta": -0.013212898551817662,
+    "rmse_percent_change": -10.78935339891408,
+    "r2_delta": 0.012045621619912739,
+    "mae_absolute_delta": -0.010521386937320354,
+    "rmse_delta_percentile_interval": [
+      -0.022513436585067558,
+      -0.004201669504186967
+    ],
+    "interpretation": "Fixed-prediction paired sensitivity,not validated workflow confidence or assay tolerance"
+  },
+  {
+    "source": "corn",
+    "contrast": "C_minus_B",
+    "target": 3,
+    "target_name": "Starch",
+    "rmse_absolute_delta": -0.050486343527740035,
+    "rmse_percent_change": -22.106341922769435,
+    "r2_delta": 0.03231009046535083,
+    "mae_absolute_delta": -0.03849627132999903,
+    "rmse_delta_percentile_interval": [
+      -0.06662370065512299,
+      -0.03446689549496711
+    ],
+    "interpretation": "Fixed-prediction paired sensitivity,not validated workflow confidence or assay tolerance"
+  },
+  {
+    "source": "corn",
+    "contrast": "C_minus_A",
+    "target": 0,
+    "target_name": "Moisture",
+    "rmse_absolute_delta": 0.003637199619166228,
+    "rmse_percent_change": 104.26407337967976,
+    "r2_delta": -0.00020007088804863127,
+    "mae_absolute_delta": 0.0027500306784988974,
+    "rmse_delta_percentile_interval": [
+      0.0025179151423445024,
+      0.004735022008224757
+    ],
+    "interpretation": "Fixed-prediction paired sensitivity,not validated workflow confidence or assay tolerance"
+  },
+  {
+    "source": "corn",
+    "contrast": "C_minus_A",
+    "target": 1,
+    "target_name": "Oil",
+    "rmse_absolute_delta": -0.016471136202647972,
+    "rmse_percent_change": -25.480989246641983,
+    "r2_delta": 0.06333237418858262,
+    "mae_absolute_delta": -0.01123466975723661,
+    "rmse_delta_percentile_interval": [
+      -0.023347986329471944,
+      -0.009458472882681956
+    ],
+    "interpretation": "Fixed-prediction paired sensitivity,not validated workflow confidence or assay tolerance"
+  },
+  {
+    "source": "corn",
+    "contrast": "C_minus_A",
+    "target": 2,
+    "target_name": "Protein",
+    "rmse_absolute_delta": -0.015614257425437969,
+    "rmse_percent_change": -12.505037922243655,
+    "r2_delta": 0.014649821010563668,
+    "mae_absolute_delta": -0.008926955733199335,
+    "rmse_delta_percentile_interval": [
+      -0.03508459019782755,
+      0.0027244666504067936
+    ],
+    "interpretation": "Fixed-prediction paired sensitivity,not validated workflow confidence or assay tolerance"
+  },
+  {
+    "source": "corn",
+    "contrast": "C_minus_A",
+    "target": 3,
+    "target_name": "Starch",
+    "rmse_absolute_delta": -0.032565249033333354,
+    "rmse_percent_change": -15.473487833059474,
+    "r2_delta": 0.01913619087581364,
+    "mae_absolute_delta": -0.019916942305231333,
+    "rmse_delta_percentile_interval": [
+      -0.05947860112757928,
+      -0.0027386685571048693
+    ],
+    "interpretation": "Fixed-prediction paired sensitivity,not validated workflow confidence or assay tolerance"
+  }
+]

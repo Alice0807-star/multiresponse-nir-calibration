@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "pipeline_cases": 644,
+  "logical_target_models": 2576,
+  "stored_model_records": 1200,
+  "candidate_records_replayed": 17840,
+  "max_prediction_reload_error": 0.0,
+  "all_new_choices_sealed_before_test": true,
+  "D_per_model_counts_matched": true,
+  "D_global_budget_matched": false,
+  "reused_ABC_not_claimed_new": true,
+  "independent_validation_claimed": false,
+  "new_fits_during_verification": 0,
+  "costs": {
+    "search_candidate_fits": 122880,
+    "calibration_candidate_fits": 17840,
+    "final_refits": 2229,
+    "final_models_reused_within_panel": 131,
+    "historical_ABC_target_records_reused": 216
+  }
+}

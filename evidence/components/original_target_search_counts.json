@@ -1,0 +1,506 @@
+[
+  {
+    "source": "cgl",
+    "fold": "official",
+    "seed": 17,
+    "target": 0,
+    "recorded_fits": 3072
+  },
+  {
+    "source": "cgl",
+    "fold": "official",
+    "seed": 17,
+    "target": 1,
+    "recorded_fits": 3072
+  },
+  {
+    "source": "cgl",
+    "fold": "official",
+    "seed": 17,
+    "target": 2,
+    "recorded_fits": 3072
+  },
+  {
+    "source": "cgl",
+    "fold": "official",
+    "seed": 17,
+    "target": 3,
+    "recorded_fits": 3072
+  },
+  {
+    "source": "cgl",
+    "fold": "official",
+    "seed": 29,
+    "target": 0,
+    "recorded_fits": 3072
+  },
+  {
+    "source": "cgl",
+    "fold": "official",
+    "seed": 29,
+    "target": 1,
+    "recorded_fits": 3072
+  },
+  {
+    "source": "cgl",
+    "fold": "official",
+    "seed": 29,
+    "target": 2,
+    "recorded_fits": 3072
+  },
+  {
+    "source": "cgl",
+    "fold": "official",
+    "seed": 29,
+    "target": 3,
+    "recorded_fits": 3072
+  },
+  {
+    "source": "cgl",
+    "fold": "official",
+    "seed": 43,
+    "target": 0,
+    "recorded_fits": 3072
+  },
+  {
+    "source": "cgl",
+    "fold": "official",
+    "seed": 43,
+    "target": 1,
+    "recorded_fits": 3072
+  },
+  {
+    "source": "cgl",
+    "fold": "official",
+    "seed": 43,
+    "target": 2,
+    "recorded_fits": 3072
+  },
+  {
+    "source": "cgl",
+    "fold": "official",
+    "seed": 43,
+    "target": 3,
+    "recorded_fits": 3072
+  },
+  {
+    "source": "corn",
+    "fold": "fold_1",
+    "seed": 17,
+    "target": 0,
+    "recorded_fits": 3072
+  },
+  {
+    "source": "corn",
+    "fold": "fold_1",
+    "seed": 17,
+    "target": 1,
+    "recorded_fits": 3072
+  },
+  {
+    "source": "corn",
+    "fold": "fold_1",
+    "seed": 17,
+    "target": 2,
+    "recorded_fits": 3072
+  },
+  {
+    "source": "corn",
+    "fold": "fold_1",
+    "seed": 17,
+    "target": 3,
+    "recorded_fits": 3072
+  },
+  {
+    "source": "corn",
+    "fold": "fold_1",
+    "seed": 29,
+    "target": 0,
+    "recorded_fits": 3072
+  },
+  {
+    "source": "corn",
+    "fold": "fold_1",
+    "seed": 29,
+    "target": 1,
+    "recorded_fits": 3072
+  },
+  {
+    "source": "corn",
+    "fold": "fold_1",
+    "seed": 29,
+    "target": 2,
+    "recorded_fits": 3072
+  },
+  {
+    "source": "corn",
+    "fold": "fold_1",
+    "seed": 29,
+    "target": 3,
+    "recorded_fits": 3072
+  },
+  {
+    "source": "corn",
+    "fold": "fold_1",
+    "seed": 43,
+    "target": 0,
+    "recorded_fits": 3072
+  },
+  {
+    "source": "corn",
+    "fold": "fold_1",
+    "seed": 43,
+    "target": 1,
+    "recorded_fits": 3072
+  },
+  {
+    "source": "corn",
+    "fold": "fold_1",
+    "seed": 43,
+    "target": 2,
+    "recorded_fits": 3072
+  },
+  {
+    "source": "corn",
+    "fold": "fold_1",
+    "seed": 43,
+    "target": 3,
+    "recorded_fits": 3072
+  },
+  {
+    "source": "corn",
+    "fold": "fold_2",
+    "seed": 17,
+    "target": 0,
+    "recorded_fits": 3072
+  },
+  {
+    "source": "corn",
+    "fold": "fold_2",
+    "seed": 17,
+    "target": 1,
+    "recorded_fits": 3072
+  },
+  {
+    "source": "corn",
+    "fold": "fold_2",
+    "seed": 17,
+    "target": 2,
+    "recorded_fits": 3072
+  },
+  {
+    "source": "corn",
+    "fold": "fold_2",
+    "seed": 17,
+    "target": 3,
+    "recorded_fits": 3072
+  },
+  {
+    "source": "corn",
+    "fold": "fold_2",
+    "seed": 29,
+    "target": 0,
+    "recorded_fits": 3072
+  },
+  {
+    "source": "corn",
+    "fold": "fold_2",
+    "seed": 29,
+    "target": 1,
+    "recorded_fits": 3072
+  },
+  {
+    "source": "corn",
+    "fold": "fold_2",
+    "seed": 29,
+    "target": 2,
+    "recorded_fits": 3072
+  },
+  {
+    "source": "corn",
+    "fold": "fold_2",
+    "seed": 29,
+    "target": 3,
+    "recorded_fits": 3072
+  },
+  {
+    "source": "corn",
+    "fold": "fold_2",
+    "seed": 43,
+    "target": 0,
+    "recorded_fits": 3072
+  },
+  {
+    "source": "corn",
+    "fold": "fold_2",
+    "seed": 43,
+    "target": 1,
+    "recorded_fits": 3072
+  },
+  {
+    "source": "corn",
+    "fold": "fold_2",
+    "seed": 43,
+    "target": 2,
+    "recorded_fits": 3072
+  },
+  {
+    "source": "corn",
+    "fold": "fold_2",
+    "seed": 43,
+    "target": 3,
+    "recorded_fits": 3072
+  },
+  {
+    "source": "corn",
+    "fold": "fold_3",
+    "seed": 17,
+    "target": 0,
+    "recorded_fits": 3072
+  },
+  {
+    "source": "corn",
+    "fold": "fold_3",
+    "seed": 17,
+    "target": 1,
+    "recorded_fits": 3072
+  },
+  {
+    "source": "corn",
+    "fold": "fold_3",
+    "seed": 17,
+    "target": 2,
+    "recorded_fits": 3072
+  },
+  {
+    "source": "corn",
+    "fold": "fold_3",
+    "seed": 17,
+    "target": 3,
+    "recorded_fits": 3072
+  },
+  {
+    "source": "corn",
+    "fold": "fold_3",
+    "seed": 29,
+    "target": 0,
+    "recorded_fits": 3072
+  },
+  {
+    "source": "corn",
+    "fold": "fold_3",
+    "seed": 29,
+    "target": 1,
+    "recorded_fits": 3072
+  },
+  {
+    "source": "corn",
+    "fold": "fold_3",
+    "seed": 29,
+    "target": 2,
+    "recorded_fits": 3072
+  },
+  {
+    "source": "corn",
+    "fold": "fold_3",
+    "seed": 29,
+    "target": 3,
+    "recorded_fits": 3072
+  },
+  {
+    "source": "corn",
+    "fold": "fold_3",
+    "seed": 43,
+    "target": 0,
+    "recorded_fits": 3072
+  },
+  {
+    "source": "corn",
+    "fold": "fold_3",
+    "seed": 43,
+    "target": 1,
+    "recorded_fits": 3072
+  },
+  {
+    "source": "corn",
+    "fold": "fold_3",
+    "seed": 43,
+    "target": 2,
+    "recorded_fits": 3072
+  },
+  {
+    "source": "corn",
+    "fold": "fold_3",
+    "seed": 43,
+    "target": 3,
+    "recorded_fits": 3072
+  },
+  {
+    "source": "corn",
+    "fold": "fold_4",
+    "seed": 17,
+    "target": 0,
+    "recorded_fits": 3072
+  },
+  {
+    "source": "corn",
+    "fold": "fold_4",
+    "seed": 17,
+    "target": 1,
+    "recorded_fits": 3072
+  },
+  {
+    "source": "corn",
+    "fold": "fold_4",
+    "seed": 17,
+    "target": 2,
+    "recorded_fits": 3072
+  },
+  {
+    "source": "corn",
+    "fold": "fold_4",
+    "seed": 17,
+    "target": 3,
+    "recorded_fits": 3072
+  },
+  {
+    "source": "corn",
+    "fold": "fold_4",
+    "seed": 29,
+    "target": 0,
+    "recorded_fits": 3072
+  },
+  {
+    "source": "corn",
+    "fold": "fold_4",
+    "seed": 29,
+    "target": 1,
+    "recorded_fits": 3072
+  },
+  {
+    "source": "corn",
+    "fold": "fold_4",
+    "seed": 29,
+    "target": 2,
+    "recorded_fits": 3072
+  },
+  {
+    "source": "corn",
+    "fold": "fold_4",
+    "seed": 29,
+    "target": 3,
+    "recorded_fits": 3072
+  },
+  {
+    "source": "corn",
+    "fold": "fold_4",
+    "seed": 43,
+    "target": 0,
+    "recorded_fits": 3072
+  },
+  {
+    "source": "corn",
+    "fold": "fold_4",
+    "seed": 43,
+    "target": 1,
+    "recorded_fits": 3072
+  },
+  {
+    "source": "corn",
+    "fold": "fold_4",
+    "seed": 43,
+    "target": 2,
+    "recorded_fits": 3072
+  },
+  {
+    "source": "corn",
+    "fold": "fold_4",
+    "seed": 43,
+    "target": 3,
+    "recorded_fits": 3072
+  },
+  {
+    "source": "corn",
+    "fold": "fold_5",
+    "seed": 17,
+    "target": 0,
+    "recorded_fits": 3072
+  },
+  {
+    "source": "corn",
+    "fold": "fold_5",
+    "seed": 17,
+    "target": 1,
+    "recorded_fits": 3072
+  },
+  {
+    "source": "corn",
+    "fold": "fold_5",
+    "seed": 17,
+    "target": 2,
+    "recorded_fits": 3072
+  },
+  {
+    "source": "corn",
+    "fold": "fold_5",
+    "seed": 17,
+    "target": 3,
+    "recorded_fits": 3072
+  },
+  {
+    "source": "corn",
+    "fold": "fold_5",
+    "seed": 29,
+    "target": 0,
+    "recorded_fits": 3072
+  },
+  {
+    "source": "corn",
+    "fold": "fold_5",
+    "seed": 29,
+    "target": 1,
+    "recorded_fits": 3072
+  },
+  {
+    "source": "corn",
+    "fold": "fold_5",
+    "seed": 29,
+    "target": 2,
+    "recorded_fits": 3072
+  },
+  {
+    "source": "corn",
+    "fold": "fold_5",
+    "seed": 29,
+    "target": 3,
+    "recorded_fits": 3072
+  },
+  {
+    "source": "corn",
+    "fold": "fold_5",
+    "seed": 43,
+    "target": 0,
+    "recorded_fits": 3072
+  },
+  {
+    "source": "corn",
+    "fold": "fold_5",
+    "seed": 43,
+    "target": 1,
+    "recorded_fits": 3072
+  },
+  {
+    "source": "corn",
+    "fold": "fold_5",
+    "seed": 43,
+    "target": 2,
+    "recorded_fits": 3072
+  },
+  {
+    "source": "corn",
+    "fold": "fold_5",
+    "seed": 43,
+    "target": 3,
+    "recorded_fits": 3072
+  }
+]

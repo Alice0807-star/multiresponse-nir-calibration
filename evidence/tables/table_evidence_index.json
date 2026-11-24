@@ -1,0 +1,332 @@
+{
+  "tables": [
+    {
+      "document": "main",
+      "table_index": 1,
+      "caption": "表1　来源与固定评价设计",
+      "evidence_files": [
+        "configs/evaluation_index.json"
+      ],
+      "recheck_scope": "protocol/index inspection; no new fit"
+    },
+    {
+      "document": "main",
+      "table_index": 2,
+      "caption": "表2　配对流程的输入与允许成分范围",
+      "evidence_files": [
+        "evidence/analysis_rules.json",
+        "configs/evaluation_index.json"
+      ],
+      "recheck_scope": "protocol/index inspection; no new fit"
+    },
+    {
+      "document": "main",
+      "table_index": 3,
+      "caption": "表3　各设置的宏平均R²",
+      "evidence_files": [
+        "evidence/figure_data/summary.json",
+        "evidence/added_table_statistics.json"
+      ],
+      "recheck_scope": "scripts/recheck_metrics.py"
+    },
+    {
+      "document": "main",
+      "table_index": 4,
+      "caption": "表4　并集与随机扩展的配对差异及随机参照位置",
+      "evidence_files": [
+        "evidence/figure_data/summary.json",
+        "evidence/figure_data/Figure_2_paired_differences.csv"
+      ],
+      "recheck_scope": "scripts/recheck_metrics.py"
+    },
+    {
+      "document": "main",
+      "table_index": 5,
+      "caption": "表5　固定选谱种子17的Corn划分敏感性",
+      "evidence_files": [
+        "evidence/figure_data/summary.json",
+        "evidence/figure_data/Figure_3_partition_differences.csv"
+      ],
+      "recheck_scope": "scripts/recheck_metrics.py"
+    },
+    {
+      "document": "main",
+      "table_index": 6,
+      "caption": "表6　原划分的逐目标平均RMSE及B、C相对A的变化",
+      "evidence_files": [
+        "evidence/figure_data/summary.json",
+        "evidence/added_table_statistics.json"
+      ],
+      "recheck_scope": "scripts/recheck_metrics.py"
+    },
+    {
+      "document": "supplement",
+      "table_index": 1,
+      "caption": "表S1　原72个目标配对的成分选择范围",
+      "evidence_files": [
+        "evidence/historical_ABC/component_summary.json"
+      ],
+      "recheck_scope": "scripts/recheck_evidence.py"
+    },
+    {
+      "document": "supplement",
+      "table_index": 2,
+      "caption": "表S2　原A/B/C的R²与误差",
+      "evidence_files": [
+        "evidence/historical_ABC/target_metrics_complete.json"
+      ],
+      "recheck_scope": "scripts/recheck_metrics.py"
+    },
+    {
+      "document": "supplement",
+      "table_index": 3,
+      "caption": "表S3a　原A/B/C的逐目标绝对与相对变化",
+      "evidence_files": [
+        "evidence/historical_ABC/target_error_differences.json"
+      ],
+      "recheck_scope": "scripts/recheck_metrics.py; scripts/recheck_resampling.py"
+    },
+    {
+      "document": "supplement",
+      "table_index": 4,
+      "caption": "表S3b　原宏平均R²差的固定预测百分位范围",
+      "evidence_files": [
+        "evidence/fixed_prediction_resampling/expected.json"
+      ],
+      "recheck_scope": "scripts/recheck_resampling.py"
+    },
+    {
+      "document": "supplement",
+      "table_index": 5,
+      "caption": "表S4a　CGL原划分配对明细",
+      "evidence_files": [
+        "evidence/historical_ABC/component_pair_records.json",
+        "evidence/figure_data/candidate_curves.json"
+      ],
+      "recheck_scope": "scripts/recheck_evidence.py"
+    },
+    {
+      "document": "supplement",
+      "table_index": 6,
+      "caption": "表S4b　Corn原划分配对明细",
+      "evidence_files": [
+        "evidence/historical_ABC/component_pair_records.json",
+        "evidence/figure_data/candidate_curves.json"
+      ],
+      "recheck_scope": "scripts/recheck_evidence.py"
+    },
+    {
+      "document": "supplement",
+      "table_index": 7,
+      "caption": "表S7a　原成分边界汇总",
+      "evidence_files": [
+        "evidence/figure_data/candidate_curves.json",
+        "evidence/figure_data/summary.json"
+      ],
+      "recheck_scope": "scripts/recheck_evidence.py; scripts/recheck_metrics.py"
+    },
+    {
+      "document": "supplement",
+      "table_index": 8,
+      "caption": "表S7b　原边界的逐目标分解",
+      "evidence_files": [
+        "evidence/figure_data/candidate_curves.json",
+        "evidence/figure_data/summary.json"
+      ],
+      "recheck_scope": "scripts/recheck_evidence.py; scripts/recheck_metrics.py"
+    },
+    {
+      "document": "supplement",
+      "table_index": 9,
+      "caption": "表S7c　原三算法种子的宏平均R²",
+      "evidence_files": [
+        "evidence/figure_data/candidate_curves.json",
+        "evidence/figure_data/summary.json"
+      ],
+      "recheck_scope": "scripts/recheck_evidence.py; scripts/recheck_metrics.py"
+    },
+    {
+      "document": "supplement",
+      "table_index": 10,
+      "caption": "表S8　跨算法种子的精确列Jaccard",
+      "evidence_files": [
+        "evidence/components/selected_columns.json",
+        "evidence/components/exact_column_overlap.json"
+      ],
+      "recheck_scope": "scripts/recheck_evidence.py"
+    },
+    {
+      "document": "supplement",
+      "table_index": 11,
+      "caption": "表S10a　原划分宏平均R²的全谱背景",
+      "evidence_files": [
+        "evidence/components/full_spectrum_background_metrics.json",
+        "evidence/components/full_spectrum_conditions.json"
+      ],
+      "recheck_scope": "scripts/recheck_metrics.py"
+    },
+    {
+      "document": "supplement",
+      "table_index": 12,
+      "caption": "表S10b　原划分逐目标全谱背景",
+      "evidence_files": [
+        "evidence/components/full_spectrum_background_metrics.json",
+        "evidence/components/full_spectrum_conditions.json"
+      ],
+      "recheck_scope": "scripts/recheck_metrics.py"
+    },
+    {
+      "document": "supplement",
+      "table_index": 13,
+      "caption": "表S12a　原对照阶段的计算记录",
+      "evidence_files": [
+        "evidence/historical_ABC/cost_accounting.json",
+        "evidence/new_phase_costs.json",
+        "evidence/components/original_target_search_counts.json"
+      ],
+      "recheck_scope": "scripts/recheck_evidence.py; archived phase accounting, not a timing benchmark"
+    },
+    {
+      "document": "supplement",
+      "table_index": 14,
+      "caption": "表S12b　本轮补强的真实计算计数",
+      "evidence_files": [
+        "evidence/historical_ABC/cost_accounting.json",
+        "evidence/new_phase_costs.json",
+        "evidence/components/original_target_search_counts.json"
+      ],
+      "recheck_scope": "scripts/recheck_evidence.py; archived phase accounting, not a timing benchmark"
+    },
+    {
+      "document": "supplement",
+      "table_index": 15,
+      "caption": "表S13　近邻研究与本研究的设计比较",
+      "evidence_files": [
+        "evidence/tables/published_tables.json"
+      ],
+      "recheck_scope": "Documentary literature/protocol comparison; no numerical test or priority proof claimed"
+    },
+    {
+      "document": "supplement",
+      "table_index": 16,
+      "caption": "表S14a　CGL 原划分",
+      "evidence_files": [
+        "evidence/figure_data/summary.json"
+      ],
+      "recheck_scope": "scripts/recheck_metrics.py"
+    },
+    {
+      "document": "supplement",
+      "table_index": 17,
+      "caption": "表S14b　Corn 原划分",
+      "evidence_files": [
+        "evidence/figure_data/summary.json"
+      ],
+      "recheck_scope": "scripts/recheck_metrics.py"
+    },
+    {
+      "document": "supplement",
+      "table_index": 18,
+      "caption": "表S14c　Corn 31001",
+      "evidence_files": [
+        "evidence/figure_data/summary.json"
+      ],
+      "recheck_scope": "scripts/recheck_metrics.py"
+    },
+    {
+      "document": "supplement",
+      "table_index": 19,
+      "caption": "表S14d　Corn 31002",
+      "evidence_files": [
+        "evidence/figure_data/summary.json"
+      ],
+      "recheck_scope": "scripts/recheck_metrics.py"
+    },
+    {
+      "document": "supplement",
+      "table_index": 20,
+      "caption": "表S14e　每模型输入与全局并集规模",
+      "evidence_files": [
+        "evidence/input_panels/panels.json",
+        "evidence/input_panels/random_panels.json"
+      ],
+      "recheck_scope": "scripts/recheck_evidence.py; configs/evaluation_index.json"
+    },
+    {
+      "document": "supplement",
+      "table_index": 21,
+      "caption": "表S15　逐种子的宏平均R²差",
+      "evidence_files": [
+        "evidence/figure_data/summary.json"
+      ],
+      "recheck_scope": "scripts/recheck_metrics.py"
+    },
+    {
+      "document": "supplement",
+      "table_index": 22,
+      "caption": "表S16a　CGL 原划分",
+      "evidence_files": [
+        "evidence/figure_data/summary.json"
+      ],
+      "recheck_scope": "scripts/recheck_metrics.py"
+    },
+    {
+      "document": "supplement",
+      "table_index": 23,
+      "caption": "表S16b　Corn 原划分",
+      "evidence_files": [
+        "evidence/figure_data/summary.json"
+      ],
+      "recheck_scope": "scripts/recheck_metrics.py"
+    },
+    {
+      "document": "supplement",
+      "table_index": 24,
+      "caption": "表S16c　Corn 31001",
+      "evidence_files": [
+        "evidence/figure_data/summary.json"
+      ],
+      "recheck_scope": "scripts/recheck_metrics.py"
+    },
+    {
+      "document": "supplement",
+      "table_index": 25,
+      "caption": "表S16d　Corn 31002",
+      "evidence_files": [
+        "evidence/figure_data/summary.json"
+      ],
+      "recheck_scope": "scripts/recheck_metrics.py"
+    },
+    {
+      "document": "supplement",
+      "table_index": 26,
+      "caption": "表S17a　Corn 31001 固定选谱种子17",
+      "evidence_files": [
+        "configs/evaluation_index.json",
+        "evidence/input_panels/panels.json"
+      ],
+      "recheck_scope": "configs and selected component/index inspection"
+    },
+    {
+      "document": "supplement",
+      "table_index": 27,
+      "caption": "表S17b　Corn 31002 固定选谱种子17",
+      "evidence_files": [
+        "configs/evaluation_index.json",
+        "evidence/input_panels/panels.json"
+      ],
+      "recheck_scope": "configs and selected component/index inspection"
+    },
+    {
+      "document": "supplement",
+      "table_index": 28,
+      "caption": "表S19　执行核验的覆盖范围",
+      "evidence_files": [
+        "evidence/archived_execution_verification.json",
+        "evidence/new_phase_costs.json"
+      ],
+      "recheck_scope": "Archived execution report consistency; scripts/recheck_models.py is a separate model reload check"
+    }
+  ],
+  "scope": "Every table is traceable; narrative protocol/history tables are not independent metric or model tests."
+}

@@ -1,0 +1,27 @@
+{
+  "frozen_settings": {
+    "random_panel_seeds": [
+      40101,
+      40102,
+      40103,
+      40104,
+      40105,
+      40106,
+      40107,
+      40108,
+      40109,
+      40110
+    ],
+    "random_replicates": 10,
+    "search_components": 8,
+    "search_budget": 3072,
+    "wide_cap": 15,
+    "quota": {
+      "cgl": 12,
+      "corn": 11
+    },
+    "D_budget_scope": "Per-target input count matched;global union,correlation,search cost not matched",
+    "numerical_failure": "Stop on PLS fitting warnings,nonfinite values or isolation/identity failure;no score-driven retry"
+  },
+  "aggregation": "Compute metrics from each seed full evaluation set; Corn pools 80 OOF rows before scoring. Average metrics across the specified seeds, then across ten D workflows. SD is sample SD (ddof=1) across the ten workflow macro-R2 values after seed aggregation. Relative RMSE is a ratio of aggregated RMSE values."
+}

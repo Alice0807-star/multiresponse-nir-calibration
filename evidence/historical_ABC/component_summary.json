@@ -1,0 +1,208 @@
+[
+  {
+    "source": "cgl",
+    "target": 0,
+    "target_name": "Casein (wt %)",
+    "cases": 3,
+    "A_distribution": {
+      "8": 3
+    },
+    "B_distribution": {
+      "12": 3
+    },
+    "C_distribution": {
+      "12": 1,
+      "13": 1,
+      "15": 1
+    },
+    "C_exceeds_B_upper": 2,
+    "B_upper": 12,
+    "A_input_count": 12,
+    "union_inputs_min": 35,
+    "union_inputs_max": 42
+  },
+  {
+    "source": "cgl",
+    "target": 1,
+    "target_name": "Glucose (wt %)",
+    "cases": 3,
+    "A_distribution": {
+      "8": 3
+    },
+    "B_distribution": {
+      "12": 3
+    },
+    "C_distribution": {
+      "15": 1,
+      "13": 1,
+      "14": 1
+    },
+    "C_exceeds_B_upper": 3,
+    "B_upper": 12,
+    "A_input_count": 12,
+    "union_inputs_min": 35,
+    "union_inputs_max": 42
+  },
+  {
+    "source": "cgl",
+    "target": 2,
+    "target_name": "Lactate (wt %)",
+    "cases": 3,
+    "A_distribution": {
+      "10": 1,
+      "9": 1,
+      "8": 1
+    },
+    "B_distribution": {
+      "12": 3
+    },
+    "C_distribution": {
+      "14": 1,
+      "13": 1,
+      "12": 1
+    },
+    "C_exceeds_B_upper": 2,
+    "B_upper": 12,
+    "A_input_count": 12,
+    "union_inputs_min": 35,
+    "union_inputs_max": 42
+  },
+  {
+    "source": "cgl",
+    "target": 3,
+    "target_name": "Moisture (wt %)",
+    "cases": 3,
+    "A_distribution": {
+      "8": 3
+    },
+    "B_distribution": {
+      "12": 3
+    },
+    "C_distribution": {
+      "14": 1,
+      "13": 2
+    },
+    "C_exceeds_B_upper": 3,
+    "B_upper": 12,
+    "A_input_count": 12,
+    "union_inputs_min": 35,
+    "union_inputs_max": 42
+  },
+  {
+    "source": "corn",
+    "target": 0,
+    "target_name": "Moisture",
+    "cases": 15,
+    "A_distribution": {
+      "8": 12,
+      "11": 3
+    },
+    "B_distribution": {
+      "10": 2,
+      "11": 12,
+      "9": 1
+    },
+    "C_distribution": {
+      "15": 13,
+      "13": 1,
+      "14": 1
+    },
+    "C_exceeds_B_upper": 15,
+    "B_upper": 11,
+    "A_input_count": 11,
+    "union_inputs_min": 39,
+    "union_inputs_max": 44
+  },
+  {
+    "source": "corn",
+    "target": 1,
+    "target_name": "Oil",
+    "cases": 15,
+    "A_distribution": {
+      "8": 14,
+      "10": 1
+    },
+    "B_distribution": {
+      "10": 2,
+      "9": 2,
+      "6": 3,
+      "11": 5,
+      "8": 2,
+      "7": 1
+    },
+    "C_distribution": {
+      "14": 5,
+      "15": 7,
+      "13": 2,
+      "8": 1
+    },
+    "C_exceeds_B_upper": 14,
+    "B_upper": 11,
+    "A_input_count": 11,
+    "union_inputs_min": 39,
+    "union_inputs_max": 44
+  },
+  {
+    "source": "corn",
+    "target": 2,
+    "target_name": "Protein",
+    "cases": 15,
+    "A_distribution": {
+      "8": 13,
+      "9": 1,
+      "10": 1
+    },
+    "B_distribution": {
+      "10": 2,
+      "11": 6,
+      "7": 4,
+      "9": 1,
+      "6": 1,
+      "8": 1
+    },
+    "C_distribution": {
+      "14": 3,
+      "12": 1,
+      "15": 5,
+      "7": 2,
+      "9": 1,
+      "13": 1,
+      "6": 1,
+      "8": 1
+    },
+    "C_exceeds_B_upper": 10,
+    "B_upper": 11,
+    "A_input_count": 11,
+    "union_inputs_min": 39,
+    "union_inputs_max": 44
+  },
+  {
+    "source": "corn",
+    "target": 3,
+    "target_name": "Starch",
+    "cases": 15,
+    "A_distribution": {
+      "8": 13,
+      "10": 2
+    },
+    "B_distribution": {
+      "10": 4,
+      "11": 8,
+      "8": 1,
+      "7": 1,
+      "9": 1
+    },
+    "C_distribution": {
+      "10": 3,
+      "12": 1,
+      "15": 5,
+      "14": 5,
+      "13": 1
+    },
+    "C_exceeds_B_upper": 12,
+    "B_upper": 11,
+    "A_input_count": 11,
+    "union_inputs_min": 39,
+    "union_inputs_max": 44
+  }
+]

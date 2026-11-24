@@ -1,0 +1,242 @@
+[
+  {
+    "source": "cgl",
+    "arm": "A",
+    "target": 0,
+    "target_name": "Casein (wt %)",
+    "r2": 0.9994970006260052,
+    "rmse": 0.43139468498186556,
+    "mae": 0.3457299375834202,
+    "normalized_rmse": 0.01808521550165271
+  },
+  {
+    "source": "cgl",
+    "arm": "A",
+    "target": 1,
+    "target_name": "Glucose (wt %)",
+    "r2": 0.9973732805452366,
+    "rmse": 0.846935161771766,
+    "mae": 0.6267109656558311,
+    "normalized_rmse": 0.03386696615266165
+  },
+  {
+    "source": "cgl",
+    "arm": "A",
+    "target": 2,
+    "target_name": "Lactate (wt %)",
+    "r2": 0.9988038502331081,
+    "rmse": 0.6673349335317168,
+    "mae": 0.514833865558369,
+    "normalized_rmse": 0.036943938152035734
+  },
+  {
+    "source": "cgl",
+    "arm": "A",
+    "target": 3,
+    "target_name": "Moisture (wt %)",
+    "r2": 0.9976806334984131,
+    "rmse": 0.20786602581042746,
+    "mae": 0.16375994396463764,
+    "normalized_rmse": 0.04944027997662483
+  },
+  {
+    "source": "cgl",
+    "arm": "B",
+    "target": 0,
+    "target_name": "Casein (wt %)",
+    "r2": 0.9995531229349393,
+    "rmse": 0.41305869425950226,
+    "mae": 0.319137022184314,
+    "normalized_rmse": 0.017316521877937377
+  },
+  {
+    "source": "cgl",
+    "arm": "B",
+    "target": 1,
+    "target_name": "Glucose (wt %)",
+    "r2": 0.9987752688939348,
+    "rmse": 0.5746994036756012,
+    "mae": 0.4406495993252835,
+    "normalized_rmse": 0.022980891726728722
+  },
+  {
+    "source": "cgl",
+    "arm": "B",
+    "target": 2,
+    "target_name": "Lactate (wt %)",
+    "r2": 0.999476450364838,
+    "rmse": 0.43877261579554877,
+    "mae": 0.34281524954897397,
+    "normalized_rmse": 0.024290633632754775
+  },
+  {
+    "source": "cgl",
+    "arm": "B",
+    "target": 3,
+    "target_name": "Moisture (wt %)",
+    "r2": 0.9995301099715865,
+    "rmse": 0.09832265526633771,
+    "mae": 0.07583409291478216,
+    "normalized_rmse": 0.023385734082616242
+  },
+  {
+    "source": "cgl",
+    "arm": "C",
+    "target": 0,
+    "target_name": "Casein (wt %)",
+    "r2": 0.9996111040881108,
+    "rmse": 0.38249033229537194,
+    "mae": 0.2938026164201771,
+    "normalized_rmse": 0.016035014634339647
+  },
+  {
+    "source": "cgl",
+    "arm": "C",
+    "target": 1,
+    "target_name": "Glucose (wt %)",
+    "r2": 0.9992992593251482,
+    "rmse": 0.44036768711707897,
+    "mae": 0.34532036692849477,
+    "normalized_rmse": 0.017609278995006528
+  },
+  {
+    "source": "cgl",
+    "arm": "C",
+    "target": 2,
+    "target_name": "Lactate (wt %)",
+    "r2": 0.9996046426798811,
+    "rmse": 0.3839242530034892,
+    "mae": 0.3006645835292688,
+    "normalized_rmse": 0.021254205565058
+  },
+  {
+    "source": "cgl",
+    "arm": "C",
+    "target": 3,
+    "target_name": "Moisture (wt %)",
+    "r2": 0.999617108462369,
+    "rmse": 0.08901330765134202,
+    "mae": 0.06842763716918071,
+    "normalized_rmse": 0.02117153505374338
+  },
+  {
+    "source": "corn",
+    "arm": "A",
+    "target": 0,
+    "target_name": "Moisture",
+    "r2": 0.9998414754920741,
+    "rmse": 0.0034884495697010526,
+    "mae": 0.0025343451105666274,
+    "normalized_rmse": 0.009207906025035188
+  },
+  {
+    "source": "corn",
+    "arm": "A",
+    "target": 1,
+    "target_name": "Oil",
+    "r2": 0.8609940048113872,
+    "rmse": 0.06464088204432104,
+    "mae": 0.04953909002579277,
+    "normalized_rmse": 0.37613150695450015
+  },
+  {
+    "source": "corn",
+    "arm": "A",
+    "target": 2,
+    "target_name": "Protein",
+    "r2": 0.9362719840659518,
+    "rmse": 0.12486373510042463,
+    "mae": 0.09241758492827207,
+    "normalized_rmse": 0.24943438131549875
+  },
+  {
+    "source": "corn",
+    "arm": "A",
+    "target": 3,
+    "target_name": "Starch",
+    "r2": 0.9332648666283155,
+    "rmse": 0.21045836197161005,
+    "mae": 0.1605901651357504,
+    "normalized_rmse": 0.25474660431404367
+  },
+  {
+    "source": "corn",
+    "arm": "B",
+    "target": 0,
+    "target_name": "Moisture",
+    "r2": 0.9982945188449007,
+    "rmse": 0.014972887082758133,
+    "mae": 0.011486338780736786,
+    "normalized_rmse": 0.039500517163343386
+  },
+  {
+    "source": "corn",
+    "arm": "B",
+    "target": 1,
+    "target_name": "Oil",
+    "r2": 0.8471993687796466,
+    "rmse": 0.06758687537921416,
+    "mae": 0.053198946700066335,
+    "normalized_rmse": 0.39259385189414536
+  },
+  {
+    "source": "corn",
+    "arm": "B",
+    "target": 2,
+    "target_name": "Protein",
+    "r2": 0.9388761834566027,
+    "rmse": 0.12246237622680432,
+    "mae": 0.09401201613239309,
+    "normalized_rmse": 0.24402519923374855
+  },
+  {
+    "source": "corn",
+    "arm": "B",
+    "target": 3,
+    "target_name": "Starch",
+    "r2": 0.9200909670387784,
+    "rmse": 0.22837945646601673,
+    "mae": 0.17916949416051808,
+    "normalized_rmse": 0.27613355183596616
+  },
+  {
+    "source": "corn",
+    "arm": "C",
+    "target": 0,
+    "target_name": "Moisture",
+    "r2": 0.9996414046040255,
+    "rmse": 0.007125649188867281,
+    "mae": 0.005284375789065525,
+    "normalized_rmse": 0.01886321541434084
+  },
+  {
+    "source": "corn",
+    "arm": "C",
+    "target": 1,
+    "target_name": "Oil",
+    "r2": 0.9243263789999698,
+    "rmse": 0.04816974584167307,
+    "mae": 0.03830442026855616,
+    "normalized_rmse": 0.27837131572039836
+  },
+  {
+    "source": "corn",
+    "arm": "C",
+    "target": 2,
+    "target_name": "Protein",
+    "r2": 0.9509218050765155,
+    "rmse": 0.10924947767498666,
+    "mae": 0.08349062919507273,
+    "normalized_rmse": 0.2182601817998989
+  },
+  {
+    "source": "corn",
+    "arm": "C",
+    "target": 3,
+    "target_name": "Starch",
+    "r2": 0.9524010575041292,
+    "rmse": 0.1778931129382767,
+    "mae": 0.14067322283051906,
+    "normalized_rmse": 0.21560561242558582
+  }
+]

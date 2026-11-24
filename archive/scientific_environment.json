@@ -1,0 +1,13 @@
+{
+  "historical_scientific_environment": {
+    "python": "3.10.21",
+    "numpy": "2.1.2",
+    "scipy": "1.15.3",
+    "scikit-learn": "1.4.2",
+    "torch": "2.6.0+cu124"
+  },
+  "selection_components": 8,
+  "calibration_cap": 15,
+  "PLS_execution": "CPU; BLAS threads=1",
+  "this_package_recheck": "Pure NumPy predictions and numeric model parameters; no GPU, Torch or scikit-learn required."
+}

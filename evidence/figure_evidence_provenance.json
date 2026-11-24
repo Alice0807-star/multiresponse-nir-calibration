@@ -1,0 +1,397 @@
+{
+  "exports": [
+    {
+      "source_id": "figures_v5_redesign_2026-11-23/figures/Figure_1.svg",
+      "source_sha256": "a1f7077fc557a804fd2057be7ecd9e115568a69546e6c4c3053d4d8bf2e64edf",
+      "repository_path": "figures/Figure_1.svg",
+      "export_sha256": "a1f7077fc557a804fd2057be7ecd9e115568a69546e6c4c3053d4d8bf2e64edf"
+    },
+    {
+      "source_id": "figures_v5_redesign_2026-11-23/figures/Figure_1.pdf",
+      "source_sha256": "c4bf935325ae151c4e3c158f618ab0ee0d39addc9121eb826383efdaa92c53b0",
+      "repository_path": "figures/Figure_1.pdf",
+      "export_sha256": "c4bf935325ae151c4e3c158f618ab0ee0d39addc9121eb826383efdaa92c53b0"
+    },
+    {
+      "source_id": "figures_v5_redesign_2026-11-23/figures/Figure_2.svg",
+      "source_sha256": "b49d9778c34ee2709ba3c976030a7f22dc7f4df70db2e61507f4090d7cca4bdc",
+      "repository_path": "figures/Figure_2.svg",
+      "export_sha256": "b49d9778c34ee2709ba3c976030a7f22dc7f4df70db2e61507f4090d7cca4bdc"
+    },
+    {
+      "source_id": "figures_v5_redesign_2026-11-23/figures/Figure_2.pdf",
+      "source_sha256": "c89e9262df321a06717e66c7b74140650494e930c65721a06159077ed8368787",
+      "repository_path": "figures/Figure_2.pdf",
+      "export_sha256": "c89e9262df321a06717e66c7b74140650494e930c65721a06159077ed8368787"
+    },
+    {
+      "source_id": "figures_v5_redesign_2026-11-23/figures/Figure_3.svg",
+      "source_sha256": "0a7cd583842a7c87bb469742315391e1147eafd10e22a909e4a640b0d962697e",
+      "repository_path": "figures/Figure_3.svg",
+      "export_sha256": "0a7cd583842a7c87bb469742315391e1147eafd10e22a909e4a640b0d962697e"
+    },
+    {
+      "source_id": "figures_v5_redesign_2026-11-23/figures/Figure_3.pdf",
+      "source_sha256": "34caa18be2a026700477d38fba7df4a18bbe7fe28d7f92af05390b480fe456bf",
+      "repository_path": "figures/Figure_3.pdf",
+      "export_sha256": "34caa18be2a026700477d38fba7df4a18bbe7fe28d7f92af05390b480fe456bf"
+    },
+    {
+      "source_id": "figures_v5_redesign_2026-11-23/figures/Figure_4.svg",
+      "source_sha256": "4a024c50c7de0a8eae16e0e2eea8a5bc4be7b474f123ae5497d52bb7ec631745",
+      "repository_path": "figures/Figure_4.svg",
+      "export_sha256": "4a024c50c7de0a8eae16e0e2eea8a5bc4be7b474f123ae5497d52bb7ec631745"
+    },
+    {
+      "source_id": "figures_v5_redesign_2026-11-23/figures/Figure_4.pdf",
+      "source_sha256": "c614a234e74045d708797dfe7b3fe650288d9d83d80d4111ce95242acca34f27",
+      "repository_path": "figures/Figure_4.pdf",
+      "export_sha256": "c614a234e74045d708797dfe7b3fe650288d9d83d80d4111ce95242acca34f27"
+    },
+    {
+      "source_id": "figures_v5_redesign_2026-11-23/figures/Figure_S1.svg",
+      "source_sha256": "90fd5c39465fab1320b986bc5207b900e2f2bc49f41da9b430b280e29826c882",
+      "repository_path": "figures/Figure_S1.svg",
+      "export_sha256": "90fd5c39465fab1320b986bc5207b900e2f2bc49f41da9b430b280e29826c882"
+    },
+    {
+      "source_id": "figures_v5_redesign_2026-11-23/figures/Figure_S1.pdf",
+      "source_sha256": "eb8e8647f52a454636984f93bf1c553205c7dfd66bdaef4f44d0662e825030d5",
+      "repository_path": "figures/Figure_S1.pdf",
+      "export_sha256": "eb8e8647f52a454636984f93bf1c553205c7dfd66bdaef4f44d0662e825030d5"
+    },
+    {
+      "source_id": "figures_v5_redesign_2026-11-23/figures/Figure_S2_moisture.svg",
+      "source_sha256": "0130841129c33ec6d1ca057809c4335412db07d835209fa6e68411e692986db5",
+      "repository_path": "figures/Figure_S2_moisture.svg",
+      "export_sha256": "0130841129c33ec6d1ca057809c4335412db07d835209fa6e68411e692986db5"
+    },
+    {
+      "source_id": "figures_v5_redesign_2026-11-23/figures/Figure_S2_moisture.pdf",
+      "source_sha256": "eb332f932703241002bf837ec3cf470ceb49c0276cf4babc378420b6881e0f5f",
+      "repository_path": "figures/Figure_S2_moisture.pdf",
+      "export_sha256": "eb332f932703241002bf837ec3cf470ceb49c0276cf4babc378420b6881e0f5f"
+    },
+    {
+      "source_id": "figures_v5_redesign_2026-11-23/figures/Figure_S2_oil.svg",
+      "source_sha256": "1273000909d89f8700ae92f20e8ed26b942b9694edc4dfd68fc806bcd1d473a6",
+      "repository_path": "figures/Figure_S2_oil.svg",
+      "export_sha256": "1273000909d89f8700ae92f20e8ed26b942b9694edc4dfd68fc806bcd1d473a6"
+    },
+    {
+      "source_id": "figures_v5_redesign_2026-11-23/figures/Figure_S2_oil.pdf",
+      "source_sha256": "5657f9b06ef80948bdbaac1d1b0e9764344708ced6b3c02e8266d3d29cf76bfe",
+      "repository_path": "figures/Figure_S2_oil.pdf",
+      "export_sha256": "5657f9b06ef80948bdbaac1d1b0e9764344708ced6b3c02e8266d3d29cf76bfe"
+    },
+    {
+      "source_id": "figures_v5_redesign_2026-11-23/figures/Figure_S2_protein.svg",
+      "source_sha256": "048a2a470f702390014ec0e67453255da50ef3cdb8a34356d9de000636646eff",
+      "repository_path": "figures/Figure_S2_protein.svg",
+      "export_sha256": "048a2a470f702390014ec0e67453255da50ef3cdb8a34356d9de000636646eff"
+    },
+    {
+      "source_id": "figures_v5_redesign_2026-11-23/figures/Figure_S2_protein.pdf",
+      "source_sha256": "5c48021894e6d930da92da347d26020416a5235d70568c26e9503985fed100fa",
+      "repository_path": "figures/Figure_S2_protein.pdf",
+      "export_sha256": "5c48021894e6d930da92da347d26020416a5235d70568c26e9503985fed100fa"
+    },
+    {
+      "source_id": "figures_v5_redesign_2026-11-23/figures/Figure_S2_starch.svg",
+      "source_sha256": "cda70769a89279ca3396f1b4a4e3a4b207c3cea77dc940f7f908fd3e88fb485c",
+      "repository_path": "figures/Figure_S2_starch.svg",
+      "export_sha256": "cda70769a89279ca3396f1b4a4e3a4b207c3cea77dc940f7f908fd3e88fb485c"
+    },
+    {
+      "source_id": "figures_v5_redesign_2026-11-23/figures/Figure_S2_starch.pdf",
+      "source_sha256": "3a4857324c6162542afd1ee3dcac7b214b5a24c0974a9278c3a674b04509f56a",
+      "repository_path": "figures/Figure_S2_starch.pdf",
+      "export_sha256": "3a4857324c6162542afd1ee3dcac7b214b5a24c0974a9278c3a674b04509f56a"
+    },
+    {
+      "source_id": "figures_v5_redesign_2026-11-23/figures/Figure_S3.svg",
+      "source_sha256": "0f293197a98e9fc3a7d07dc90ef0d75f931cb8ba26c0a1f6b80eabd410b4491d",
+      "repository_path": "figures/Figure_S3.svg",
+      "export_sha256": "0f293197a98e9fc3a7d07dc90ef0d75f931cb8ba26c0a1f6b80eabd410b4491d"
+    },
+    {
+      "source_id": "figures_v5_redesign_2026-11-23/figures/Figure_S3.pdf",
+      "source_sha256": "f7d0fb9d434c07b5cf4bc1b8388efd6a6c708fd157105b327ff1cffb354f65ad",
+      "repository_path": "figures/Figure_S3.pdf",
+      "export_sha256": "f7d0fb9d434c07b5cf4bc1b8388efd6a6c708fd157105b327ff1cffb354f65ad"
+    },
+    {
+      "source_id": "figures_v5_redesign_2026-11-23/English_figure_legends.txt",
+      "source_sha256": "9b53abe2e5aad126d032985e1d5bd69777b8f63562da56554dc61313814b636e",
+      "repository_path": "figures/English_figure_legends.txt",
+      "export_sha256": "9b53abe2e5aad126d032985e1d5bd69777b8f63562da56554dc61313814b636e"
+    },
+    {
+      "source_id": "figures_v5_redesign_2026-11-23/source_data/candidate_curves.json",
+      "source_sha256": "8a55fa9cece30bf9f9acfde393941e18618ff6834ebc7bd385a31deda345f13e",
+      "repository_path": "evidence/figure_data/candidate_curves.json",
+      "export_sha256": "8a55fa9cece30bf9f9acfde393941e18618ff6834ebc7bd385a31deda345f13e",
+      "transformation": "Absolute archive paths replaced by provenance identifiers; values unchanged."
+    },
+    {
+      "source_id": "figures_v5_redesign_2026-11-23/source_data/figure1_membership.json",
+      "source_sha256": "afddb92b1fb8c06208c58707bec9b7af412e17776ce868bdddb8301c0096e4a1",
+      "repository_path": "evidence/figure_data/figure1_membership.json",
+      "export_sha256": "e3b752edae0fd9628845a59b88c21fec02ce8502a70c73940c4e1d78e29d1e20",
+      "transformation": "Absolute archive paths replaced by provenance identifiers; values unchanged."
+    },
+    {
+      "source_id": "figures_v5_redesign_2026-11-23/source_data/Figure_1_observed_membership.csv",
+      "source_sha256": "5786f28916eb0855fdd54dcc6b656df8b74388c00ad46b7bb9fbdc44d8e2ac1e",
+      "repository_path": "evidence/figure_data/Figure_1_observed_membership.csv",
+      "export_sha256": "5786f28916eb0855fdd54dcc6b656df8b74388c00ad46b7bb9fbdc44d8e2ac1e"
+    },
+    {
+      "source_id": "figures_v5_redesign_2026-11-23/source_data/Figure_2_effect_summary.csv",
+      "source_sha256": "1ac26c44453477f562d80da9d96ee2f482c2e0d0535ba4672e0a1e455996adae",
+      "repository_path": "evidence/figure_data/Figure_2_effect_summary.csv",
+      "export_sha256": "1ac26c44453477f562d80da9d96ee2f482c2e0d0535ba4672e0a1e455996adae"
+    },
+    {
+      "source_id": "figures_v5_redesign_2026-11-23/source_data/Figure_2_paired_differences.csv",
+      "source_sha256": "a9089aac5cb55f6aa6951309e4a07090fba308a25f780523fa092ad77f2d67b4",
+      "repository_path": "evidence/figure_data/Figure_2_paired_differences.csv",
+      "export_sha256": "a9089aac5cb55f6aa6951309e4a07090fba308a25f780523fa092ad77f2d67b4"
+    },
+    {
+      "source_id": "figures_v5_redesign_2026-11-23/source_data/Figure_3_partition_differences.csv",
+      "source_sha256": "f9544cc48a66b77fa88d38419d6ba61fd86f1cb6b893f66ec851b833cdf81932",
+      "repository_path": "evidence/figure_data/Figure_3_partition_differences.csv",
+      "export_sha256": "f9544cc48a66b77fa88d38419d6ba61fd86f1cb6b893f66ec851b833cdf81932"
+    },
+    {
+      "source_id": "figures_v5_redesign_2026-11-23/source_data/Figure_4_absolute_rmse.csv",
+      "source_sha256": "55829411301d5a12b85be5092d73c2a5ccec50490dea03b812311ee76a526074",
+      "repository_path": "evidence/figure_data/Figure_4_absolute_rmse.csv",
+      "export_sha256": "55829411301d5a12b85be5092d73c2a5ccec50490dea03b812311ee76a526074"
+    },
+    {
+      "source_id": "figures_v5_redesign_2026-11-23/source_data/Figure_4_rmse_ratios.csv",
+      "source_sha256": "4872ab49aaf685ecbc80286f052af05c5d8869f444fa5f13f03edfbeb03f92fe",
+      "repository_path": "evidence/figure_data/Figure_4_rmse_ratios.csv",
+      "export_sha256": "4872ab49aaf685ecbc80286f052af05c5d8869f444fa5f13f03edfbeb03f92fe"
+    },
+    {
+      "source_id": "figures_v5_redesign_2026-11-23/source_data/Figure_S3_boundary_counts.csv",
+      "source_sha256": "02809399b26ce5f545bb985627d9dabc85916ad7f18721bd56d2529751cb5dc7",
+      "repository_path": "evidence/figure_data/Figure_S3_boundary_counts.csv",
+      "export_sha256": "02809399b26ce5f545bb985627d9dabc85916ad7f18721bd56d2529751cb5dc7"
+    },
+    {
+      "source_id": "figures_v5_redesign_2026-11-23/source_data/Figure_S3_selected_components.csv",
+      "source_sha256": "ff9164e6e0f5f93b9cafa2e6cd4d6f947f2c7becdf3900ceed3219cb227d7a0a",
+      "repository_path": "evidence/figure_data/Figure_S3_selected_components.csv",
+      "export_sha256": "ff9164e6e0f5f93b9cafa2e6cd4d6f947f2c7becdf3900ceed3219cb227d7a0a"
+    },
+    {
+      "source_id": "figures_v5_redesign_2026-11-23/source_data/layout_contract.json",
+      "source_sha256": "3c8de47b65753f176ccb6d49cf1ab5a432cbe0fff090a1ca2589871772710e07",
+      "repository_path": "evidence/figure_data/layout_contract.json",
+      "export_sha256": "990593a179588055a02fecbbbdb9f69248458c0a8a0386992643b96e65ad6201",
+      "transformation": "Absolute archive paths replaced by provenance identifiers; values unchanged."
+    },
+    {
+      "source_id": "figures_v5_redesign_2026-11-23/source_data/summary.json",
+      "source_sha256": "517a1c8c70453c42e7dd8f80c6c8b512c3c506bcb7a6c8e2895341868adefc9a",
+      "repository_path": "evidence/figure_data/summary.json",
+      "export_sha256": "df04240ba658daea1f57a18241c724bad591e5d90bc8db748d7cd9724946e4b9",
+      "transformation": "Absolute archive paths replaced by provenance identifiers; values unchanged."
+    },
+    {
+      "source_id": "figures_v5_redesign_2026-11-23/qa/curve_coverage_and_limits.json",
+      "source_sha256": "003c566b94fff35e469ced183e201da9679924f854c3068955b1a2e6af9aca26",
+      "repository_path": "evidence/figure_data/curve_coverage_and_limits.json",
+      "export_sha256": "38d5dbefac25d2820b26a79c41f9ab0b4f2e59ef861425902c5412b0276ad13e",
+      "transformation": "Absolute archive paths replaced by provenance identifiers; values unchanged."
+    },
+    {
+      "source_id": "figures_v5_redesign_2026-11-23/source/round1_core.py",
+      "source_sha256": "dcd8e0892c64ab93bc347148689de3b9a63fb4a12374ac7dbbb94e4c4f674f0a",
+      "repository_path": "scripts/figures/round1_core.py",
+      "export_sha256": "b7b5196f1c03436497e32611d3f4e30da369dc045fca006d5dfea170aadbbc70",
+      "transformation": "Repository-relative input/output paths; optional external layout QA only. Scientific plotting geometry and numerical rules retained."
+    },
+    {
+      "source_id": "figures_v5_redesign_2026-11-23/source/round2_design.py",
+      "source_sha256": "6e98bc273b8c76945dc5baa235d41060661ea36bca1867c6b4fbe3c75bcd53d5",
+      "repository_path": "scripts/figures/round2_design.py",
+      "export_sha256": "5509ab30dae4f993924f873954b906a7dd5e465ee165967d005464793666b277",
+      "transformation": "Repository-relative input/output paths; optional external layout QA only. Scientific plotting geometry and numerical rules retained."
+    },
+    {
+      "source_id": "figures_v5_redesign_2026-11-23/source/round3_supplement.py",
+      "source_sha256": "a9d2c6f42fc8e9e127d6b9bb1887478dabb68f5556242a66258e8ecc73c961a2",
+      "repository_path": "scripts/figures/round3_supplement.py",
+      "export_sha256": "acfc577fda6b1de5648aabdf43352eb5318a9cafe55a573b0f40425e324d44bc",
+      "transformation": "Repository-relative input/output paths; optional external layout QA only. Scientific plotting geometry and numerical rules retained."
+    },
+    {
+      "source_id": "figures_v5_redesign_2026-11-23/source/plot_common.py",
+      "source_sha256": "3a98b376024e0b4837a96a3bdf4813297855fdfdaa8b70c35327de7b8c8bb2e1",
+      "repository_path": "scripts/figures/plot_common.py",
+      "export_sha256": "9454a61b7496c4e114aae83b83eef7a25a5071a885c05509e6dc8913525cd360",
+      "transformation": "Repository-relative input/output paths; optional external layout QA only. Scientific plotting geometry and numerical rules retained."
+    },
+    {
+      "source_id": "figures_v5_redesign_2026-11-23/source/verify_numbers.py",
+      "source_sha256": "0095dc301e2a75a2f570473f0f92a4d86557a820a788e5d891741ab60a52b32f",
+      "repository_path": "scripts/figures/verify_numbers.py",
+      "export_sha256": "cea77b31fce71f1e9e98960c76da3cc9cdd74b8f7c86b048f4ee735ef3a855d0",
+      "transformation": "Repository-relative input/output paths; optional external layout QA only. Scientific plotting geometry and numerical rules retained."
+    },
+    {
+      "source_id": "results/paper_evidence_audit_001/component_pair_records.json",
+      "source_sha256": "e685affc33b6c3e40b55ab415ed980b5c9d499e123260c306e43bc6b031ae4e9",
+      "repository_path": "evidence/historical_ABC/component_pair_records.json",
+      "export_sha256": "bac8804d747cf70ca46624de7d6c1c45d2762fcc111038bdfdc749c7d41ba9fb",
+      "transformation": "Absolute archive paths replaced by provenance identifiers; values unchanged."
+    },
+    {
+      "source_id": "results/paper_evidence_audit_001/component_summary.json",
+      "source_sha256": "5e1c7399b58881d4e8802bb232a08c9c61bd728aa6418819cc5e240d799aa7d6",
+      "repository_path": "evidence/historical_ABC/component_summary.json",
+      "export_sha256": "5e1c7399b58881d4e8802bb232a08c9c61bd728aa6418819cc5e240d799aa7d6",
+      "transformation": "Absolute archive paths replaced by provenance identifiers; values unchanged."
+    },
+    {
+      "source_id": "results/paper_evidence_audit_001/cost_accounting.json",
+      "source_sha256": "2e817b021d1ce554dc5322a8476d94a6ce83745dbf2ffa5935df08ab88634beb",
+      "repository_path": "evidence/historical_ABC/cost_accounting.json",
+      "export_sha256": "2e817b021d1ce554dc5322a8476d94a6ce83745dbf2ffa5935df08ab88634beb",
+      "transformation": "Absolute archive paths replaced by provenance identifiers; values unchanged."
+    },
+    {
+      "source_id": "results/paper_evidence_audit_001/metrics_by_fold_seed_target.json",
+      "source_sha256": "280bcd070f9df3b3ecabf29638a780a24ce9df60d9b12283fdf7d5c882212353",
+      "repository_path": "evidence/historical_ABC/metrics_by_fold_seed_target.json",
+      "export_sha256": "280bcd070f9df3b3ecabf29638a780a24ce9df60d9b12283fdf7d5c882212353",
+      "transformation": "Absolute archive paths replaced by provenance identifiers; values unchanged."
+    },
+    {
+      "source_id": "results/paper_evidence_audit_001/target_error_differences.json",
+      "source_sha256": "731e9d45fe87ee9f03a216783341193b6be3e12cbc5c4940084f783f79889bf4",
+      "repository_path": "evidence/historical_ABC/target_error_differences.json",
+      "export_sha256": "731e9d45fe87ee9f03a216783341193b6be3e12cbc5c4940084f783f79889bf4",
+      "transformation": "Absolute archive paths replaced by provenance identifiers; values unchanged."
+    },
+    {
+      "source_id": "results/paper_evidence_audit_001/target_metrics_complete.json",
+      "source_sha256": "a31d9ba6b0cb6ce2bfa9540447c45dbe4a37ccdaab2139969da5caea92fa48be",
+      "repository_path": "evidence/historical_ABC/target_metrics_complete.json",
+      "export_sha256": "a31d9ba6b0cb6ce2bfa9540447c45dbe4a37ccdaab2139969da5caea92fa48be",
+      "transformation": "Absolute archive paths replaced by provenance identifiers; values unchanged."
+    },
+    {
+      "source_id": "results/paper_evidence_audit_001/changed_component_score_directions.json",
+      "source_sha256": "ba50daedf99576e6f4ef88526b0ab65f449d9644870b48b1c5a709c6cfe1644c",
+      "repository_path": "evidence/historical_ABC/changed_component_score_directions.json",
+      "export_sha256": "ba50daedf99576e6f4ef88526b0ab65f449d9644870b48b1c5a709c6cfe1644c",
+      "transformation": "Absolute archive paths replaced by provenance identifiers; values unchanged."
+    },
+    {
+      "source_id": "results/paper_evidence_audit_001/split_indices.json",
+      "source_sha256": "0be430d9a24f7d0337431e94967b8f835b5ee8ff2e8532cb50e8085202dd9dd3",
+      "repository_path": "evidence/historical_ABC/split_indices.json",
+      "export_sha256": "0be430d9a24f7d0337431e94967b8f835b5ee8ff2e8532cb50e8085202dd9dd3",
+      "transformation": "Absolute archive paths replaced by provenance identifiers; values unchanged."
+    },
+    {
+      "source_id": "docs/paper_v4_assets/data/exact_column_overlap.json",
+      "source_sha256": "aba61608d4c156d356b6e9e54c358d4c69760a8adbafe857a702e0f996402443",
+      "repository_path": "evidence/components/exact_column_overlap.json",
+      "export_sha256": "aba61608d4c156d356b6e9e54c358d4c69760a8adbafe857a702e0f996402443",
+      "transformation": "Absolute archive paths replaced by provenance identifiers; values unchanged."
+    },
+    {
+      "source_id": "docs/paper_v4_assets/data/selected_columns.json",
+      "source_sha256": "f9aa59a55fda11a9a6212a31df28eacaa77ea23fdfe035127294ccb670c3fa1c",
+      "repository_path": "evidence/components/selected_columns.json",
+      "export_sha256": "f9aa59a55fda11a9a6212a31df28eacaa77ea23fdfe035127294ccb670c3fa1c",
+      "transformation": "Absolute archive paths replaced by provenance identifiers; values unchanged."
+    },
+    {
+      "source_id": "docs/paper_v4_assets/data/full_spectrum_background_metrics.json",
+      "source_sha256": "20fd10b57f84a15a2731540948c224eb25bdeb3689f6368eea07647f609c37fa",
+      "repository_path": "evidence/components/full_spectrum_background_metrics.json",
+      "export_sha256": "20fd10b57f84a15a2731540948c224eb25bdeb3689f6368eea07647f609c37fa",
+      "transformation": "Absolute archive paths replaced by provenance identifiers; values unchanged."
+    },
+    {
+      "source_id": "docs/paper_v4_assets/data/full_spectrum_conditions.json",
+      "source_sha256": "6badbe710cb9dbaeb5e18572b42e192b86a1c634ff2de80bdc0e74b99daa0ccc",
+      "repository_path": "evidence/components/full_spectrum_conditions.json",
+      "export_sha256": "6badbe710cb9dbaeb5e18572b42e192b86a1c634ff2de80bdc0e74b99daa0ccc",
+      "transformation": "Absolute archive paths replaced by provenance identifiers; values unchanged."
+    },
+    {
+      "source_id": "docs/paper_v4_assets/data/original_target_search_counts.json",
+      "source_sha256": "a2992b3ec20bc376b5bf2d1f2ecdf9f5e8b69d1640a65e2ca7885001459a22f9",
+      "repository_path": "evidence/components/original_target_search_counts.json",
+      "export_sha256": "a2992b3ec20bc376b5bf2d1f2ecdf9f5e8b69d1640a65e2ca7885001459a22f9",
+      "transformation": "Absolute archive paths replaced by provenance identifiers; values unchanged."
+    },
+    {
+      "source_id": "results/reviewer_control_v1/verification.json",
+      "source_sha256": "21b504de32ed39ff50ed2fb2077345b3013f028391aabd7376b3085d90975b7b",
+      "repository_path": "evidence/archived_execution_verification.json",
+      "export_sha256": "21b504de32ed39ff50ed2fb2077345b3013f028391aabd7376b3085d90975b7b",
+      "transformation": "Absolute archive paths replaced by provenance identifiers; values unchanged."
+    },
+    {
+      "source_id": "results/reviewer_control_v1/costs_final.json",
+      "source_sha256": "3701bca1cb30e4bf8ac457ccfde1833f67628f6b7a32cace4e2ab46ba3866241",
+      "repository_path": "evidence/new_phase_costs.json",
+      "export_sha256": "3701bca1cb30e4bf8ac457ccfde1833f67628f6b7a32cace4e2ab46ba3866241",
+      "transformation": "Absolute archive paths replaced by provenance identifiers; values unchanged."
+    },
+    {
+      "source_id": "results/manuscript_v4_revision_001/response_scaling_audit.json",
+      "source_sha256": "da84b612ad56ea14203bbb203f046e1cba8c1093592857d7069fb94c0bdb4184",
+      "repository_path": "evidence/response_scaling_audit.json",
+      "export_sha256": "89d012c864f82268e5cebd924de5ae2d1019805da95109595edc40319dfc5d18",
+      "transformation": "Absolute archive paths replaced by provenance identifiers; values unchanged."
+    },
+    {
+      "source_id": "results/manuscript_v5_tables_2026-11-24/added_table_statistics.json",
+      "source_sha256": "01e6855b3ce1486419771d2b5f182e3c98e88a6acc767a6ec283593ce321916e",
+      "repository_path": "evidence/added_table_statistics.json",
+      "export_sha256": "b49b5d627b53837f46906b347a098451137122cefe5ef013c8ec72f563611175",
+      "transformation": "Absolute archive paths replaced by provenance identifiers; values unchanged."
+    },
+    {
+      "source_id": "results/reviewer_control_v1/panels.json",
+      "source_sha256": "1e16d54a7a48ef2abb6d190d954aa7614f907f6c50bb3f5635acb243c7047bb4",
+      "repository_path": "evidence/input_panels/panels.json",
+      "export_sha256": "1e16d54a7a48ef2abb6d190d954aa7614f907f6c50bb3f5635acb243c7047bb4",
+      "transformation": "Absolute archive paths replaced by provenance identifiers; values unchanged."
+    },
+    {
+      "source_id": "results/reviewer_control_v1/random_panels.json",
+      "source_sha256": "b0434263789ad42e5894d840f915921ec4d3e255b48a20961c128dd3301b9908",
+      "repository_path": "evidence/input_panels/random_panels.json",
+      "export_sha256": "b0434263789ad42e5894d840f915921ec4d3e255b48a20961c128dd3301b9908",
+      "transformation": "Absolute archive paths replaced by provenance identifiers; values unchanged."
+    },
+    {
+      "source_id": "results/paper_evidence_audit_001/cgl_complete_resampling.npz",
+      "source_sha256": "19edc09c096c433bfe8d7db7ef532a7bcbbb9394fde5477d4e91c78afdf3db87",
+      "repository_path": "evidence/fixed_prediction_resampling/cgl_weights.npz",
+      "export_sha256": "8443fd32ac69174a43bf76174bf973ff02c9af74501ec4aee193fba09f3985bd",
+      "transformation": "Only sample IDs, saved row counts and arm identifiers; no reference values or predictions."
+    },
+    {
+      "source_id": "results/paper_evidence_audit_001/corn_complete_resampling.npz",
+      "source_sha256": "bd4baf695ddc4284e6052e77eff98d1852ba0d2476ab4e495b28f9868fc3bac7",
+      "repository_path": "evidence/fixed_prediction_resampling/corn_weights.npz",
+      "export_sha256": "88ab121814c28dd59cefaa3272f6ce1a15db6cabbead730f799a56893f47d335",
+      "transformation": "Only sample IDs, saved row counts and arm identifiers; no reference values or predictions."
+    }
+  ],
+  "new_model_fits": 0,
+  "archive_identifiers": "archive-record: strings identify original records, not bundled physical-model files."
+}

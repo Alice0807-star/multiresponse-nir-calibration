@@ -1,0 +1,7 @@
+{
+  "search_candidate_fits": 122880,
+  "calibration_candidate_fits": 17840,
+  "final_refits": 2229,
+  "final_models_reused_within_panel": 131,
+  "historical_ABC_target_records_reused": 216
+}

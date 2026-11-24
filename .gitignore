@@ -1,0 +1,34 @@
+# Third-party source data and locally imported reference responses
+/data/raw/
+/data/local/**
+!/data/local/README.md
+!/data/local/.gitkeep
+
+# Raw legacy checkpoint folders stay local. Portable final numeric parameters
+# under results/models/ ARE included in the prepared release.
+/models/
+/private_archive/
+
+# Runtime outputs are regenerated locally; expected results stay in results/.
+/outputs/
+/verification_output/
+/generated/
+
+# Python and editor caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local account credentials must never be included in a publication package.
+.env
+.env.*
+*.pem
+*.key

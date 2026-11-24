@@ -1,0 +1,157 @@
+{
+  "sklearn_version": "1.4.2",
+  "internal_x_y_sd_ddof": 1,
+  "external_response_sd_ddof": 0,
+  "checked_response_columns": 48,
+  "max_standardized_response_difference": 1.8207657603852567e-14,
+  "records": [
+    {
+      "source": "cgl",
+      "fold": "official",
+      "stage": "fit",
+      "training_rows": 122,
+      "arithmetic_difference_by_target": [
+        4.440892098500626e-16,
+        1.3322676295501878e-15,
+        1.3322676295501878e-15,
+        1.3322676295501878e-15
+      ]
+    },
+    {
+      "source": "cgl",
+      "fold": "official",
+      "stage": "refit",
+      "training_rows": 153,
+      "arithmetic_difference_by_target": [
+        8.881784197001252e-16,
+        4.440892098500626e-16,
+        2.220446049250313e-15,
+        1.7763568394002505e-15
+      ]
+    },
+    {
+      "source": "corn",
+      "fold": "fold_1",
+      "stage": "fit",
+      "training_rows": 48,
+      "arithmetic_difference_by_target": [
+        1.1102230246251565e-14,
+        2.220446049250313e-15,
+        6.661338147750939e-16,
+        2.6645352591003757e-15
+      ]
+    },
+    {
+      "source": "corn",
+      "fold": "fold_1",
+      "stage": "refit",
+      "training_rows": 64,
+      "arithmetic_difference_by_target": [
+        1.8207657603852567e-14,
+        2.220446049250313e-15,
+        2.6645352591003757e-15,
+        8.881784197001252e-15
+      ]
+    },
+    {
+      "source": "corn",
+      "fold": "fold_2",
+      "stage": "fit",
+      "training_rows": 48,
+      "arithmetic_difference_by_target": [
+        7.105427357601002e-15,
+        7.549516567451064e-15,
+        2.4424906541753444e-15,
+        1.7763568394002505e-15
+      ]
+    },
+    {
+      "source": "corn",
+      "fold": "fold_2",
+      "stage": "refit",
+      "training_rows": 64,
+      "arithmetic_difference_by_target": [
+        2.220446049250313e-15,
+        5.551115123125783e-15,
+        2.220446049250313e-15,
+        2.6645352591003757e-15
+      ]
+    },
+    {
+      "source": "corn",
+      "fold": "fold_3",
+      "stage": "fit",
+      "training_rows": 48,
+      "arithmetic_difference_by_target": [
+        8.881784197001252e-16,
+        2.6645352591003757e-15,
+        2.220446049250313e-16,
+        9.769962616701378e-15
+      ]
+    },
+    {
+      "source": "corn",
+      "fold": "fold_3",
+      "stage": "refit",
+      "training_rows": 64,
+      "arithmetic_difference_by_target": [
+        1.176836406102666e-14,
+        1.1102230246251565e-15,
+        6.439293542825908e-15,
+        1.4210854715202004e-14
+      ]
+    },
+    {
+      "source": "corn",
+      "fold": "fold_4",
+      "stage": "fit",
+      "training_rows": 48,
+      "arithmetic_difference_by_target": [
+        2.220446049250313e-15,
+        6.661338147750939e-16,
+        2.6645352591003757e-15,
+        5.551115123125783e-15
+      ]
+    },
+    {
+      "source": "corn",
+      "fold": "fold_4",
+      "stage": "refit",
+      "training_rows": 64,
+      "arithmetic_difference_by_target": [
+        1.7763568394002505e-15,
+        8.881784197001252e-16,
+        2.220446049250313e-15,
+        9.325873406851315e-15
+      ]
+    },
+    {
+      "source": "corn",
+      "fold": "fold_5",
+      "stage": "fit",
+      "training_rows": 48,
+      "arithmetic_difference_by_target": [
+        5.329070518200751e-15,
+        5.773159728050814e-15,
+        6.439293542825908e-15,
+        1.5987211554602254e-14
+      ]
+    },
+    {
+      "source": "corn",
+      "fold": "fold_5",
+      "stage": "refit",
+      "training_rows": 64,
+      "arithmetic_difference_by_target": [
+        6.8833827526759706e-15,
+        8.881784197001252e-16,
+        5.329070518200751e-15,
+        1.9984014443252818e-15
+      ]
+    }
+  ],
+  "scope": "Transformation arithmetic only;no alternative-model fit or prediction-equivalence experiment",
+  "sklearn_source_file": "archive-record:_pls.py",
+  "sklearn_source_sha256": "c359e6e3aadc850b5516aeae1141ab6fafbd30360084ef9a2c289314192b3422",
+  "implementation_source": "def _center_scale_xy(X, Y, scale=True):\n    \"\"\"Center X, Y and scale if the scale parameter==True\n\n    Returns\n    -------\n        X, Y, x_mean, y_mean, x_std, y_std\n    \"\"\"\n    # center\n    x_mean = X.mean(axis=0)\n    X -= x_mean\n    y_mean = Y.mean(axis=0)\n    Y -= y_mean\n    # scale\n    if scale:\n        x_std = X.std(axis=0, ddof=1)\n        x_std[x_std == 0.0] = 1.0\n        X /= x_std\n        y_std = Y.std(axis=0, ddof=1)\n        y_std[y_std == 0.0] = 1.0\n        Y /= y_std\n    else:\n        x_std = np.ones(X.shape[1])\n        y_std = np.ones(Y.shape[1])\n    return X, Y, x_mean, y_mean, x_std, y_std\n"
+}

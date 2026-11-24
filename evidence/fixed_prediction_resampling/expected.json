@@ -1,0 +1,275 @@
+{
+  "scope": "Original A/B/C fixed-prediction paired resampling only; not full-process confidence intervals.",
+  "macro_r2": {
+    "cgl": {
+      "B_minus_A": [
+        0.0006835920212581538,
+        0.0014561837498486571
+      ],
+      "C_minus_B": [
+        0.00011876864166857487,
+        0.0003185070139474978
+      ],
+      "C_minus_A": [
+        0.0008710110563228804,
+        0.0016867266943669807
+      ]
+    },
+    "corn": {
+      "B_minus_A": [
+        -0.018381578789997497,
+        0.005328534583273006
+      ],
+      "C_minus_B": [
+        0.022345371992655422,
+        0.04219048276722452
+      ],
+      "C_minus_A": [
+        0.013563116834616652,
+        0.03838250522854152
+      ]
+    }
+  },
+  "target_rmse": [
+    {
+      "source": "cgl",
+      "contrast": "B_minus_A",
+      "target": 0,
+      "target_name": "Casein (wt %)",
+      "rmse_delta_percentile_interval": [
+        -0.0870770405184793,
+        0.04436250037772423
+      ]
+    },
+    {
+      "source": "cgl",
+      "contrast": "B_minus_A",
+      "target": 1,
+      "target_name": "Glucose (wt %)",
+      "rmse_delta_percentile_interval": [
+        -0.4071740771993233,
+        -0.13703691929935294
+      ]
+    },
+    {
+      "source": "cgl",
+      "contrast": "B_minus_A",
+      "target": 2,
+      "target_name": "Lactate (wt %)",
+      "rmse_delta_percentile_interval": [
+        -0.28446375599330115,
+        -0.16987616583375087
+      ]
+    },
+    {
+      "source": "cgl",
+      "contrast": "B_minus_A",
+      "target": 3,
+      "target_name": "Moisture (wt %)",
+      "rmse_delta_percentile_interval": [
+        -0.130642861569009,
+        -0.08848367240827266
+      ]
+    },
+    {
+      "source": "cgl",
+      "contrast": "C_minus_B",
+      "target": 0,
+      "target_name": "Casein (wt %)",
+      "rmse_delta_percentile_interval": [
+        -0.05926567299769302,
+        -9.513991645898056e-05
+      ]
+    },
+    {
+      "source": "cgl",
+      "contrast": "C_minus_B",
+      "target": 1,
+      "target_name": "Glucose (wt %)",
+      "rmse_delta_percentile_interval": [
+        -0.18614284218294036,
+        -0.08135669147537723
+      ]
+    },
+    {
+      "source": "cgl",
+      "contrast": "C_minus_B",
+      "target": 2,
+      "target_name": "Lactate (wt %)",
+      "rmse_delta_percentile_interval": [
+        -0.08617681055716533,
+        -0.024460745554745332
+      ]
+    },
+    {
+      "source": "cgl",
+      "contrast": "C_minus_B",
+      "target": 3,
+      "target_name": "Moisture (wt %)",
+      "rmse_delta_percentile_interval": [
+        -0.01641557382710662,
+        -0.0024050291335871556
+      ]
+    },
+    {
+      "source": "cgl",
+      "contrast": "C_minus_A",
+      "target": 0,
+      "target_name": "Casein (wt %)",
+      "rmse_delta_percentile_interval": [
+        -0.09879625992411857,
+        -0.0044301048266135274
+      ]
+    },
+    {
+      "source": "cgl",
+      "contrast": "C_minus_A",
+      "target": 1,
+      "target_name": "Glucose (wt %)",
+      "rmse_delta_percentile_interval": [
+        -0.549869591367223,
+        -0.2599761074000707
+      ]
+    },
+    {
+      "source": "cgl",
+      "contrast": "C_minus_A",
+      "target": 2,
+      "target_name": "Lactate (wt %)",
+      "rmse_delta_percentile_interval": [
+        -0.34381315173113314,
+        -0.21825212872676394
+      ]
+    },
+    {
+      "source": "cgl",
+      "contrast": "C_minus_A",
+      "target": 3,
+      "target_name": "Moisture (wt %)",
+      "rmse_delta_percentile_interval": [
+        -0.1425852695652994,
+        -0.09574890246099649
+      ]
+    },
+    {
+      "source": "corn",
+      "contrast": "B_minus_A",
+      "target": 0,
+      "target_name": "Moisture",
+      "rmse_delta_percentile_interval": [
+        0.009652079298156929,
+        0.013281169221118851
+      ]
+    },
+    {
+      "source": "corn",
+      "contrast": "B_minus_A",
+      "target": 1,
+      "target_name": "Oil",
+      "rmse_delta_percentile_interval": [
+        -0.004225111577369577,
+        0.010272855692326326
+      ]
+    },
+    {
+      "source": "corn",
+      "contrast": "B_minus_A",
+      "target": 2,
+      "target_name": "Protein",
+      "rmse_delta_percentile_interval": [
+        -0.019057115684668138,
+        0.013699944991052173
+      ]
+    },
+    {
+      "source": "corn",
+      "contrast": "B_minus_A",
+      "target": 3,
+      "target_name": "Starch",
+      "rmse_delta_percentile_interval": [
+        -0.011949955969476254,
+        0.05078482206888003
+      ]
+    },
+    {
+      "source": "corn",
+      "contrast": "C_minus_B",
+      "target": 0,
+      "target_name": "Moisture",
+      "rmse_delta_percentile_interval": [
+        -0.009522857629291098,
+        -0.00620537402010409
+      ]
+    },
+    {
+      "source": "corn",
+      "contrast": "C_minus_B",
+      "target": 1,
+      "target_name": "Oil",
+      "rmse_delta_percentile_interval": [
+        -0.025149278702858706,
+        -0.013184290838785011
+      ]
+    },
+    {
+      "source": "corn",
+      "contrast": "C_minus_B",
+      "target": 2,
+      "target_name": "Protein",
+      "rmse_delta_percentile_interval": [
+        -0.022513436585067558,
+        -0.004201669504186967
+      ]
+    },
+    {
+      "source": "corn",
+      "contrast": "C_minus_B",
+      "target": 3,
+      "target_name": "Starch",
+      "rmse_delta_percentile_interval": [
+        -0.06662370065512299,
+        -0.03446689549496711
+      ]
+    },
+    {
+      "source": "corn",
+      "contrast": "C_minus_A",
+      "target": 0,
+      "target_name": "Moisture",
+      "rmse_delta_percentile_interval": [
+        0.0025179151423445024,
+        0.004735022008224757
+      ]
+    },
+    {
+      "source": "corn",
+      "contrast": "C_minus_A",
+      "target": 1,
+      "target_name": "Oil",
+      "rmse_delta_percentile_interval": [
+        -0.023347986329471944,
+        -0.009458472882681956
+      ]
+    },
+    {
+      "source": "corn",
+      "contrast": "C_minus_A",
+      "target": 2,
+      "target_name": "Protein",
+      "rmse_delta_percentile_interval": [
+        -0.03508459019782755,
+        0.0027244666504067936
+      ]
+    },
+    {
+      "source": "corn",
+      "contrast": "C_minus_A",
+      "target": 3,
+      "target_name": "Starch",
+      "rmse_delta_percentile_interval": [
+        -0.05947860112757928,
+        -0.0027386685571048693
+      ]
+    }
+  ]
+}

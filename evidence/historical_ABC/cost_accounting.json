@@ -1,0 +1,13 @@
+{
+  "new_pipeline_cases": 36,
+  "new_logical_target_model_records": 144,
+  "existing_C_context_target_records": 72,
+  "full_A_B_C_supplement_records": 216,
+  "new_candidate_fits": 804,
+  "new_final_refits": 133,
+  "reused_final_models": 11,
+  "new_search_fits": 0,
+  "new_nn_models": 0,
+  "audit_new_fits": 0,
+  "note": "Existing C and cached models are reused in this control;zero NEW cost is not zero historical cost"
+}

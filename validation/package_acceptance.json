@@ -1,0 +1,910 @@
+{
+  "acceptance_date": "2026-11-24",
+  "scope": "No-fit verification of the prepared release, not full training reproduction or independent validation.",
+  "original_workspace_access_was_blocked": true,
+  "network_was_blocked": true,
+  "torch_and_sklearn_imports_were_blocked": true,
+  "checks": {
+    "metrics_verification": {
+      "passed": true,
+      "pipeline_cases": 644,
+      "logical_target_models": 2576,
+      "complete_seed_arm_replicate_workflows": 184,
+      "full_spectrum_unique_prediction_files": 6,
+      "numeric_values_compared": 17846,
+      "max_absolute_difference": 1.1102230246251565e-16,
+      "tolerance": 1e-12,
+      "training_sd_recomputed_from_local_reference_labels": true,
+      "public_prediction_files_do_not_contain_reference_labels": true,
+      "new_fits": 0,
+      "model_loading": false,
+      "network_required": false,
+      "scope": "Archived-prediction metric recalculation only; not full training reproduction or independent validation."
+    },
+    "model_replay_verification": {
+      "passed": true,
+      "pipeline_prediction_files": 650,
+      "unique_numeric_models": 2458,
+      "predicted_values_checked": 58960,
+      "max_absolute_prediction_error": 0.0,
+      "new_fits": 0,
+      "pickle_loading": false,
+      "scope": "Numerical parameter replay of archived final PLS models; not retraining or independent validation."
+    },
+    "resampling_report": {
+      "passed": true,
+      "sources": {
+        "cgl": {
+          "saved_row_resamples": 10000,
+          "evaluation_rows": 78,
+          "macro_r2_percentiles": {
+            "B_minus_A": [
+              0.0006835920212581538,
+              0.0014561837498486571
+            ],
+            "C_minus_B": [
+              0.00011876864166857487,
+              0.0003185070139474978
+            ],
+            "C_minus_A": [
+              0.0008710110563228804,
+              0.0016867266943669807
+            ]
+          },
+          "target_rmse_percentiles": [
+            {
+              "contrast": "B_minus_A",
+              "target": 0,
+              "rmse_delta_percentiles": [
+                -0.0870770405184793,
+                0.04436250037772423
+              ]
+            },
+            {
+              "contrast": "B_minus_A",
+              "target": 1,
+              "rmse_delta_percentiles": [
+                -0.4071740771993233,
+                -0.13703691929935294
+              ]
+            },
+            {
+              "contrast": "B_minus_A",
+              "target": 2,
+              "rmse_delta_percentiles": [
+                -0.28446375599330115,
+                -0.16987616583375087
+              ]
+            },
+            {
+              "contrast": "B_minus_A",
+              "target": 3,
+              "rmse_delta_percentiles": [
+                -0.130642861569009,
+                -0.08848367240827266
+              ]
+            },
+            {
+              "contrast": "C_minus_B",
+              "target": 0,
+              "rmse_delta_percentiles": [
+                -0.05926567299769302,
+                -9.513991645898056e-05
+              ]
+            },
+            {
+              "contrast": "C_minus_B",
+              "target": 1,
+              "rmse_delta_percentiles": [
+                -0.18614284218294036,
+                -0.08135669147537723
+              ]
+            },
+            {
+              "contrast": "C_minus_B",
+              "target": 2,
+              "rmse_delta_percentiles": [
+                -0.08617681055716533,
+                -0.024460745554745332
+              ]
+            },
+            {
+              "contrast": "C_minus_B",
+              "target": 3,
+              "rmse_delta_percentiles": [
+                -0.01641557382710662,
+                -0.0024050291335871556
+              ]
+            },
+            {
+              "contrast": "C_minus_A",
+              "target": 0,
+              "rmse_delta_percentiles": [
+                -0.09879625992411857,
+                -0.0044301048266135274
+              ]
+            },
+            {
+              "contrast": "C_minus_A",
+              "target": 1,
+              "rmse_delta_percentiles": [
+                -0.549869591367223,
+                -0.2599761074000707
+              ]
+            },
+            {
+              "contrast": "C_minus_A",
+              "target": 2,
+              "rmse_delta_percentiles": [
+                -0.34381315173113314,
+                -0.21825212872676394
+              ]
+            },
+            {
+              "contrast": "C_minus_A",
+              "target": 3,
+              "rmse_delta_percentiles": [
+                -0.1425852695652994,
+                -0.09574890246099649
+              ]
+            }
+          ]
+        },
+        "corn": {
+          "saved_row_resamples": 10000,
+          "evaluation_rows": 80,
+          "macro_r2_percentiles": {
+            "B_minus_A": [
+              -0.018381578789997497,
+              0.005328534583273006
+            ],
+            "C_minus_B": [
+              0.022345371992655422,
+              0.04219048276722452
+            ],
+            "C_minus_A": [
+              0.013563116834616652,
+              0.03838250522854152
+            ]
+          },
+          "target_rmse_percentiles": [
+            {
+              "contrast": "B_minus_A",
+              "target": 0,
+              "rmse_delta_percentiles": [
+                0.009652079298156929,
+                0.013281169221118851
+              ]
+            },
+            {
+              "contrast": "B_minus_A",
+              "target": 1,
+              "rmse_delta_percentiles": [
+                -0.004225111577369577,
+                0.010272855692326326
+              ]
+            },
+            {
+              "contrast": "B_minus_A",
+              "target": 2,
+              "rmse_delta_percentiles": [
+                -0.019057115684668138,
+                0.013699944991052173
+              ]
+            },
+            {
+              "contrast": "B_minus_A",
+              "target": 3,
+              "rmse_delta_percentiles": [
+                -0.011949955969476254,
+                0.05078482206888003
+              ]
+            },
+            {
+              "contrast": "C_minus_B",
+              "target": 0,
+              "rmse_delta_percentiles": [
+                -0.009522857629291098,
+                -0.00620537402010409
+              ]
+            },
+            {
+              "contrast": "C_minus_B",
+              "target": 1,
+              "rmse_delta_percentiles": [
+                -0.025149278702858706,
+                -0.013184290838785011
+              ]
+            },
+            {
+              "contrast": "C_minus_B",
+              "target": 2,
+              "rmse_delta_percentiles": [
+                -0.022513436585067558,
+                -0.004201669504186967
+              ]
+            },
+            {
+              "contrast": "C_minus_B",
+              "target": 3,
+              "rmse_delta_percentiles": [
+                -0.06662370065512299,
+                -0.03446689549496711
+              ]
+            },
+            {
+              "contrast": "C_minus_A",
+              "target": 0,
+              "rmse_delta_percentiles": [
+                0.0025179151423445024,
+                0.004735022008224757
+              ]
+            },
+            {
+              "contrast": "C_minus_A",
+              "target": 1,
+              "rmse_delta_percentiles": [
+                -0.023347986329471944,
+                -0.009458472882681956
+              ]
+            },
+            {
+              "contrast": "C_minus_A",
+              "target": 2,
+              "rmse_delta_percentiles": [
+                -0.03508459019782755,
+                0.0027244666504067936
+              ]
+            },
+            {
+              "contrast": "C_minus_A",
+              "target": 3,
+              "rmse_delta_percentiles": [
+                -0.05947860112757928,
+                -0.0027386685571048693
+              ]
+            }
+          ]
+        }
+      },
+      "max_absolute_error": 0.0,
+      "new_model_fits": 0,
+      "scope": "Original A/B/C saved-prediction paired sensitivity only; no D/new-partition resampling, full-process coverage or independent validation claimed."
+    },
+    "tables_verification": {
+      "passed": true,
+      "table_count": 34,
+      "main_tables": 6,
+      "supplementary_tables": 28,
+      "tables_checked": 34,
+      "logical_body_cells_checked": 2329,
+      "verification_levels": {
+        "protocol_definition": 2,
+        "archived_prediction_derived_metrics": 18,
+        "saved_selection_arithmetic": 5,
+        "archived_prediction_fixed_resampling": 1,
+        "saved_candidate_arithmetic": 2,
+        "saved_index_jaccard": 1,
+        "archived_cost_accounting": 2,
+        "text_scope_only": 1,
+        "saved_input_index_arithmetic": 1,
+        "archived_execution_record": 1
+      },
+      "generated_metric_recalculation_used": true,
+      "summary_source": "generated/summary.json",
+      "raw_reference_labels_loaded_by_this_script": false,
+      "model_files_loaded": false,
+      "new_model_fits": 0,
+      "full_training_reproduction_claimed": false,
+      "all_tables_independently_recalculated_from_raw_data": false,
+      "scope": "Published-table values/definitions traced to saved records; --use-recomputed explicitly uses prior generated archived-prediction recalculation. Verification levels are table-specific.",
+      "limitations": [
+        "S13 literature descriptions receive scope/structure checking only.",
+        "Saved candidates, costs, selection indices and historical execution reports are not rerun training.",
+        "Fixed-prediction resampling is not full-process uncertainty or independent validation."
+      ],
+      "input_sha256": {
+        "configs/evaluation_index.json": "a23d2457dae161caa1ee6906c2ad65c83b7afdda35a4afa834552761524d20d6",
+        "evidence/archived_execution_verification.json": "21b504de32ed39ff50ed2fb2077345b3013f028391aabd7376b3085d90975b7b",
+        "evidence/components/full_spectrum_conditions.json": "6badbe710cb9dbaeb5e18572b42e192b86a1c634ff2de80bdc0e74b99daa0ccc",
+        "evidence/components/original_target_search_counts.json": "a2992b3ec20bc376b5bf2d1f2ecdf9f5e8b69d1640a65e2ca7885001459a22f9",
+        "evidence/components/selected_columns.json": "f9aa59a55fda11a9a6212a31df28eacaa77ea23fdfe035127294ccb670c3fa1c",
+        "evidence/figure_data/candidate_curves.json": "8a55fa9cece30bf9f9acfde393941e18618ff6834ebc7bd385a31deda345f13e",
+        "evidence/fixed_prediction_resampling/expected.json": "90a808e49e07545c35fdcc941b5acd4f3c0ef53fcff6985314fd7311cb80bbf1",
+        "evidence/historical_ABC/component_pair_records.json": "bac8804d747cf70ca46624de7d6c1c45d2762fcc111038bdfdc749c7d41ba9fb",
+        "evidence/historical_ABC/cost_accounting.json": "2e817b021d1ce554dc5322a8476d94a6ce83745dbf2ffa5935df08ab88634beb",
+        "evidence/input_panels/panels.json": "1e16d54a7a48ef2abb6d190d954aa7614f907f6c50bb3f5635acb243c7047bb4",
+        "evidence/input_panels/random_panels.json": "b0434263789ad42e5894d840f915921ec4d3e255b48a20961c128dd3301b9908",
+        "evidence/new_phase_costs.json": "3701bca1cb30e4bf8ac457ccfde1833f67628f6b7a32cace4e2ab46ba3866241",
+        "evidence/tables/coverage_index.json": "b3c1645b3e0a740679fbcff29908a0a795c0e5b52e4e37ce97c0c284b34140ae",
+        "evidence/tables/published_tables.json": "ba038e8b0c8a05eca064c40d6d862468059163bbd384eb063b7246c8b6bcb553",
+        "generated/summary.json": "3ed68497ecc445ea9910581e8577bbe98282dd327f5de7326ebc7fd942971b03",
+        "results/expected/full_spectrum.json": "38b54c1f6a8c724666a8f96d3bff6070abdc11dd50df57bcacbe279cb31170c1",
+        "results/expected/metrics_v5.json": "3ed68497ecc445ea9910581e8577bbe98282dd327f5de7326ebc7fd942971b03"
+      },
+      "tables": [
+        {
+          "id": "main:1",
+          "caption": "\u88681\u3000\u6765\u6e90\u4e0e\u56fa\u5b9a\u8bc4\u4ef7\u8bbe\u8ba1",
+          "passed": true,
+          "verification_level": "protocol_definition",
+          "source_files": [
+            "configs/evaluation_index.json"
+          ],
+          "checked_body_cells": 16,
+          "header_rows": 1,
+          "definition_checks": 1,
+          "limitations": "",
+          "failures": []
+        },
+        {
+          "id": "main:2",
+          "caption": "\u88682\u3000\u914d\u5bf9\u6d41\u7a0b\u7684\u8f93\u5165\u4e0e\u5141\u8bb8\u6210\u5206\u8303\u56f4",
+          "passed": true,
+          "verification_level": "protocol_definition",
+          "source_files": [
+            "configs/evaluation_index.json",
+            "evidence/historical_ABC/component_pair_records.json"
+          ],
+          "checked_body_cells": 20,
+          "header_rows": 2,
+          "definition_checks": 1,
+          "limitations": "",
+          "failures": []
+        },
+        {
+          "id": "main:3",
+          "caption": "\u88683\u3000\u5404\u8bbe\u7f6e\u7684\u5b8f\u5e73\u5747R\u00b2",
+          "passed": true,
+          "verification_level": "archived_prediction_derived_metrics",
+          "source_files": [
+            "generated/summary.json"
+          ],
+          "checked_body_cells": 24,
+          "header_rows": 2,
+          "definition_checks": 0,
+          "limitations": "Generated metrics are prior archived-prediction recalculation, not newly trained models or independent validation.",
+          "failures": []
+        },
+        {
+          "id": "main:4",
+          "caption": "\u88684\u3000\u5e76\u96c6\u4e0e\u968f\u673a\u6269\u5c55\u7684\u914d\u5bf9\u5dee\u5f02\u53ca\u968f\u673a\u53c2\u7167\u4f4d\u7f6e",
+          "passed": true,
+          "verification_level": "archived_prediction_derived_metrics",
+          "source_files": [
+            "generated/summary.json"
+          ],
+          "checked_body_cells": 24,
+          "header_rows": 2,
+          "definition_checks": 0,
+          "limitations": "Generated metrics are prior archived-prediction recalculation, not newly trained models or independent validation.",
+          "failures": []
+        },
+        {
+          "id": "main:5",
+          "caption": "\u88685\u3000\u56fa\u5b9a\u9009\u8c31\u79cd\u5b5017\u7684Corn\u5212\u5206\u654f\u611f\u6027",
+          "passed": true,
+          "verification_level": "archived_prediction_derived_metrics",
+          "source_files": [
+            "generated/summary.json"
+          ],
+          "checked_body_cells": 21,
+          "header_rows": 2,
+          "definition_checks": 0,
+          "limitations": "Generated metrics are prior archived-prediction recalculation, not newly trained models or independent validation.",
+          "failures": []
+        },
+        {
+          "id": "main:6",
+          "caption": "\u88686\u3000\u539f\u5212\u5206\u7684\u9010\u76ee\u6807\u5e73\u5747RMSE\u53caB\u3001C\u76f8\u5bf9A\u7684\u53d8\u5316",
+          "passed": true,
+          "verification_level": "archived_prediction_derived_metrics",
+          "source_files": [
+            "generated/summary.json"
+          ],
+          "checked_body_cells": 72,
+          "header_rows": 2,
+          "definition_checks": 0,
+          "limitations": "Generated metrics are prior archived-prediction recalculation, not newly trained models or independent validation.",
+          "failures": []
+        },
+        {
+          "id": "supplement:1",
+          "caption": "\u8868S1\u3000\u539f72\u4e2a\u76ee\u6807\u914d\u5bf9\u7684\u6210\u5206\u9009\u62e9\u8303\u56f4",
+          "passed": true,
+          "verification_level": "saved_selection_arithmetic",
+          "source_files": [
+            "evidence/historical_ABC/component_pair_records.json"
+          ],
+          "checked_body_cells": 56,
+          "header_rows": 1,
+          "definition_checks": 0,
+          "limitations": "",
+          "failures": []
+        },
+        {
+          "id": "supplement:2",
+          "caption": "\u8868S2\u3000\u539fA/B/C\u7684R\u00b2\u4e0e\u8bef\u5dee",
+          "passed": true,
+          "verification_level": "archived_prediction_derived_metrics",
+          "source_files": [
+            "generated/summary.json"
+          ],
+          "checked_body_cells": 168,
+          "header_rows": 1,
+          "definition_checks": 0,
+          "limitations": "",
+          "failures": []
+        },
+        {
+          "id": "supplement:3",
+          "caption": "\u8868S3a\u3000\u539fA/B/C\u7684\u9010\u76ee\u6807\u7edd\u5bf9\u4e0e\u76f8\u5bf9\u53d8\u5316",
+          "passed": true,
+          "verification_level": "archived_prediction_derived_metrics",
+          "source_files": [
+            "generated/summary.json"
+          ],
+          "checked_body_cells": 168,
+          "header_rows": 1,
+          "definition_checks": 0,
+          "limitations": "",
+          "failures": []
+        },
+        {
+          "id": "supplement:4",
+          "caption": "\u8868S3b\u3000\u539f\u5b8f\u5e73\u5747R\u00b2\u5dee\u7684\u56fa\u5b9a\u9884\u6d4b\u767e\u5206\u4f4d\u8303\u56f4",
+          "passed": true,
+          "verification_level": "archived_prediction_fixed_resampling",
+          "source_files": [
+            "generated/resampling_report.json"
+          ],
+          "checked_body_cells": 18,
+          "header_rows": 1,
+          "definition_checks": 0,
+          "limitations": "Fixed predictions only; does not cover new selection/training uncertainty or independent samples.",
+          "failures": []
+        },
+        {
+          "id": "supplement:5",
+          "caption": "\u8868S4a\u3000CGL\u539f\u5212\u5206\u914d\u5bf9\u660e\u7ec6",
+          "passed": true,
+          "verification_level": "saved_selection_arithmetic",
+          "source_files": [
+            "evidence/historical_ABC/component_pair_records.json"
+          ],
+          "checked_body_cells": 108,
+          "header_rows": 1,
+          "definition_checks": 0,
+          "limitations": "",
+          "failures": []
+        },
+        {
+          "id": "supplement:6",
+          "caption": "\u8868S4b\u3000Corn\u539f\u5212\u5206\u914d\u5bf9\u660e\u7ec6",
+          "passed": true,
+          "verification_level": "saved_selection_arithmetic",
+          "source_files": [
+            "evidence/historical_ABC/component_pair_records.json"
+          ],
+          "checked_body_cells": 540,
+          "header_rows": 1,
+          "definition_checks": 0,
+          "limitations": "",
+          "failures": []
+        },
+        {
+          "id": "supplement:7",
+          "caption": "\u8868S7a\u3000\u539f\u6210\u5206\u8fb9\u754c\u6c47\u603b",
+          "passed": true,
+          "verification_level": "saved_candidate_arithmetic",
+          "source_files": [
+            "evidence/figure_data/candidate_curves.json"
+          ],
+          "checked_body_cells": 14,
+          "header_rows": 1,
+          "definition_checks": 0,
+          "limitations": "Checks saved candidate scores, not their refitting or a proof of optimality.",
+          "failures": []
+        },
+        {
+          "id": "supplement:8",
+          "caption": "\u8868S7b\u3000\u539f\u8fb9\u754c\u7684\u9010\u76ee\u6807\u5206\u89e3",
+          "passed": true,
+          "verification_level": "saved_candidate_arithmetic",
+          "source_files": [
+            "evidence/figure_data/candidate_curves.json"
+          ],
+          "checked_body_cells": 48,
+          "header_rows": 1,
+          "definition_checks": 0,
+          "limitations": "Checks saved candidate scores, not their refitting or a proof of optimality.",
+          "failures": []
+        },
+        {
+          "id": "supplement:9",
+          "caption": "\u8868S7c\u3000\u539f\u4e09\u7b97\u6cd5\u79cd\u5b50\u7684\u5b8f\u5e73\u5747R\u00b2",
+          "passed": true,
+          "verification_level": "archived_prediction_derived_metrics",
+          "source_files": [
+            "generated/summary.json"
+          ],
+          "checked_body_cells": 42,
+          "header_rows": 1,
+          "definition_checks": 0,
+          "limitations": "",
+          "failures": []
+        },
+        {
+          "id": "supplement:10",
+          "caption": "\u8868S8\u3000\u8de8\u7b97\u6cd5\u79cd\u5b50\u7684\u7cbe\u786e\u5217Jaccard",
+          "passed": true,
+          "verification_level": "saved_index_jaccard",
+          "source_files": [
+            "evidence/components/selected_columns.json"
+          ],
+          "checked_body_cells": 10,
+          "header_rows": 1,
+          "definition_checks": 0,
+          "limitations": "No chance correction or wavelength-neighborhood clustering; not a complete stability assessment.",
+          "failures": []
+        },
+        {
+          "id": "supplement:11",
+          "caption": "\u8868S10a\u3000\u539f\u5212\u5206\u5b8f\u5e73\u5747R\u00b2\u7684\u5168\u8c31\u80cc\u666f",
+          "passed": true,
+          "verification_level": "archived_prediction_derived_metrics",
+          "source_files": [
+            "generated/summary.json",
+            "generated/full_spectrum_summary.json"
+          ],
+          "checked_body_cells": 8,
+          "header_rows": 1,
+          "definition_checks": 0,
+          "limitations": "Full-spectrum is an original-partition background; no additional-partition full models are inferred.",
+          "failures": []
+        },
+        {
+          "id": "supplement:12",
+          "caption": "\u8868S10b\u3000\u539f\u5212\u5206\u9010\u76ee\u6807\u5168\u8c31\u80cc\u666f",
+          "passed": true,
+          "verification_level": "archived_prediction_derived_metrics",
+          "source_files": [
+            "generated/summary.json",
+            "generated/full_spectrum_summary.json"
+          ],
+          "checked_body_cells": 64,
+          "header_rows": 1,
+          "definition_checks": 0,
+          "limitations": "Full-spectrum is an original-partition background; no additional-partition full models are inferred.",
+          "failures": []
+        },
+        {
+          "id": "supplement:13",
+          "caption": "\u8868S12a\u3000\u539f\u5bf9\u7167\u9636\u6bb5\u7684\u8ba1\u7b97\u8bb0\u5f55",
+          "passed": true,
+          "verification_level": "archived_cost_accounting",
+          "source_files": [
+            "evidence/components/original_target_search_counts.json",
+            "evidence/historical_ABC/cost_accounting.json",
+            "evidence/historical_ABC/component_pair_records.json",
+            "evidence/components/full_spectrum_conditions.json"
+          ],
+          "checked_body_cells": 30,
+          "header_rows": 1,
+          "definition_checks": 1,
+          "limitations": "Archived execution counts; historical searches are not rerun.",
+          "failures": []
+        },
+        {
+          "id": "supplement:14",
+          "caption": "\u8868S12b\u3000\u672c\u8f6e\u8865\u5f3a\u7684\u771f\u5b9e\u8ba1\u7b97\u8ba1\u6570",
+          "passed": true,
+          "verification_level": "archived_cost_accounting",
+          "source_files": [
+            "evidence/new_phase_costs.json",
+            "configs/evaluation_index.json"
+          ],
+          "checked_body_cells": 18,
+          "header_rows": 1,
+          "definition_checks": 1,
+          "limitations": "Counts refer to distinct stages and are not independent experiments.",
+          "failures": []
+        },
+        {
+          "id": "supplement:15",
+          "caption": "\u8868S13\u3000\u8fd1\u90bb\u7814\u7a76\u4e0e\u672c\u7814\u7a76\u7684\u8bbe\u8ba1\u6bd4\u8f83",
+          "passed": true,
+          "verification_level": "text_scope_only",
+          "source_files": [
+            "evidence/tables/published_tables.json"
+          ],
+          "checked_body_cells": 0,
+          "header_rows": 5,
+          "definition_checks": 1,
+          "limitations": "Literature details are not independently rechecked in this reproduction package; not a novelty or priority proof.",
+          "failures": []
+        },
+        {
+          "id": "supplement:16",
+          "caption": "\u8868S14a\u3000CGL \u539f\u5212\u5206",
+          "passed": true,
+          "verification_level": "archived_prediction_derived_metrics",
+          "source_files": [
+            "generated/summary.json"
+          ],
+          "checked_body_cells": 48,
+          "header_rows": 1,
+          "definition_checks": 0,
+          "limitations": "",
+          "failures": []
+        },
+        {
+          "id": "supplement:17",
+          "caption": "\u8868S14b\u3000Corn \u539f\u5212\u5206",
+          "passed": true,
+          "verification_level": "archived_prediction_derived_metrics",
+          "source_files": [
+            "generated/summary.json"
+          ],
+          "checked_body_cells": 48,
+          "header_rows": 1,
+          "definition_checks": 0,
+          "limitations": "",
+          "failures": []
+        },
+        {
+          "id": "supplement:18",
+          "caption": "\u8868S14c\u3000Corn 31001",
+          "passed": true,
+          "verification_level": "archived_prediction_derived_metrics",
+          "source_files": [
+            "generated/summary.json"
+          ],
+          "checked_body_cells": 120,
+          "header_rows": 1,
+          "definition_checks": 0,
+          "limitations": "",
+          "failures": []
+        },
+        {
+          "id": "supplement:19",
+          "caption": "\u8868S14d\u3000Corn 31002",
+          "passed": true,
+          "verification_level": "archived_prediction_derived_metrics",
+          "source_files": [
+            "generated/summary.json"
+          ],
+          "checked_body_cells": 120,
+          "header_rows": 1,
+          "definition_checks": 0,
+          "limitations": "",
+          "failures": []
+        },
+        {
+          "id": "supplement:20",
+          "caption": "\u8868S14e\u3000\u6bcf\u6a21\u578b\u8f93\u5165\u4e0e\u5168\u5c40\u5e76\u96c6\u89c4\u6a21",
+          "passed": true,
+          "verification_level": "saved_input_index_arithmetic",
+          "source_files": [
+            "configs/evaluation_index.json",
+            "evidence/input_panels/panels.json",
+            "evidence/input_panels/random_panels.json"
+          ],
+          "checked_body_cells": 16,
+          "header_rows": 1,
+          "definition_checks": 0,
+          "limitations": "D only matches each model column count; the global acquisition budget is not matched.",
+          "failures": []
+        },
+        {
+          "id": "supplement:21",
+          "caption": "\u8868S15\u3000\u9010\u79cd\u5b50\u7684\u5b8f\u5e73\u5747R\u00b2\u5dee",
+          "passed": true,
+          "verification_level": "archived_prediction_derived_metrics",
+          "source_files": [
+            "generated/summary.json"
+          ],
+          "checked_body_cells": 48,
+          "header_rows": 1,
+          "definition_checks": 0,
+          "limitations": "",
+          "failures": []
+        },
+        {
+          "id": "supplement:22",
+          "caption": "\u8868S16a\u3000CGL \u539f\u5212\u5206",
+          "passed": true,
+          "verification_level": "archived_prediction_derived_metrics",
+          "source_files": [
+            "generated/summary.json"
+          ],
+          "checked_body_cells": 50,
+          "header_rows": 1,
+          "definition_checks": 0,
+          "limitations": "",
+          "failures": []
+        },
+        {
+          "id": "supplement:23",
+          "caption": "\u8868S16b\u3000Corn \u539f\u5212\u5206",
+          "passed": true,
+          "verification_level": "archived_prediction_derived_metrics",
+          "source_files": [
+            "generated/summary.json"
+          ],
+          "checked_body_cells": 50,
+          "header_rows": 1,
+          "definition_checks": 0,
+          "limitations": "",
+          "failures": []
+        },
+        {
+          "id": "supplement:24",
+          "caption": "\u8868S16c\u3000Corn 31001",
+          "passed": true,
+          "verification_level": "archived_prediction_derived_metrics",
+          "source_files": [
+            "generated/summary.json"
+          ],
+          "checked_body_cells": 50,
+          "header_rows": 1,
+          "definition_checks": 0,
+          "limitations": "",
+          "failures": []
+        },
+        {
+          "id": "supplement:25",
+          "caption": "\u8868S16d\u3000Corn 31002",
+          "passed": true,
+          "verification_level": "archived_prediction_derived_metrics",
+          "source_files": [
+            "generated/summary.json"
+          ],
+          "checked_body_cells": 50,
+          "header_rows": 1,
+          "definition_checks": 0,
+          "limitations": "",
+          "failures": []
+        },
+        {
+          "id": "supplement:26",
+          "caption": "\u8868S17a\u3000Corn 31001 \u56fa\u5b9a\u9009\u8c31\u79cd\u5b5017",
+          "passed": true,
+          "verification_level": "saved_selection_arithmetic",
+          "source_files": [
+            "configs/evaluation_index.json"
+          ],
+          "checked_body_cells": 120,
+          "header_rows": 1,
+          "definition_checks": 0,
+          "limitations": "",
+          "failures": []
+        },
+        {
+          "id": "supplement:27",
+          "caption": "\u8868S17b\u3000Corn 31002 \u56fa\u5b9a\u9009\u8c31\u79cd\u5b5017",
+          "passed": true,
+          "verification_level": "saved_selection_arithmetic",
+          "source_files": [
+            "configs/evaluation_index.json"
+          ],
+          "checked_body_cells": 120,
+          "header_rows": 1,
+          "definition_checks": 0,
+          "limitations": "",
+          "failures": []
+        },
+        {
+          "id": "supplement:28",
+          "caption": "\u8868S19\u3000\u6267\u884c\u6838\u9a8c\u7684\u8986\u76d6\u8303\u56f4",
+          "passed": true,
+          "verification_level": "archived_execution_record",
+          "source_files": [
+            "evidence/archived_execution_verification.json",
+            "evidence/new_phase_costs.json",
+            "configs/evaluation_index.json"
+          ],
+          "checked_body_cells": 20,
+          "header_rows": 1,
+          "definition_checks": 1,
+          "limitations": "A saved report consistency check; this does not independently rerun the original candidate models or establish blind validation.",
+          "failures": []
+        }
+      ]
+    },
+    "evidence_report": {
+      "passed": true,
+      "scope": "Saved-record arithmetic and identity checks; not a saved-model reload or model-fitting audit.",
+      "figures": {
+        "passed": true,
+        "paired_effects": 80,
+        "partition_differences": 9,
+        "rmse_ratios": 24,
+        "absolute_rmse_values": 40,
+        "membership_columns": 42,
+        "shared_columns": 6,
+        "distinct_validation_curves": 144,
+        "distinct_validation_scores": 1884,
+        "negative_validation_scores_retained": 164,
+        "actual_component_choices": 216,
+        "max_absolute_numeric_error": 4.440892098500626e-16,
+        "new_model_fits": 0
+      },
+      "original_target_pairs": 72,
+      "component_boundaries": {
+        "cgl": {
+          "target_pairs": 12,
+          "B_at_cap": 12,
+          "C_at_15": 2,
+          "C_exceeds_B_cap": 10,
+          "union_15_above_14": 4,
+          "union_11_to_15_every_step_up": 0
+        },
+        "corn": {
+          "target_pairs": 60,
+          "B_at_cap": 31,
+          "C_at_15": 30,
+          "C_exceeds_B_cap": 51,
+          "union_15_above_14": 35,
+          "union_11_to_15_every_step_up": 20
+        }
+      },
+      "exact_column_jaccard": {
+        "cgl/own": 0.08608130999435348,
+        "cgl/union": 0.21685363247863246,
+        "corn/own": 0.016190476190476193,
+        "corn/union": 0.03873126898698314
+      },
+      "table_snapshots": 34,
+      "main_tables": 6,
+      "supplementary_tables": 28,
+      "candidate_search_counts_verified": true,
+      "november24_SD_cells": 8,
+      "november24_B_A_cells": 8,
+      "original_changed_score_improved": 52,
+      "original_changed_score_declined": 9,
+      "original_and_new_input_cells": 28,
+      "shared_dual_range_random_target_panels": 1120,
+      "archived_execution_report_consistent": true,
+      "raw_reference_labels_loaded": false,
+      "new_model_fits": 0
+    },
+    "verification": {
+      "requested_full_no_fit_checks": true,
+      "stages": {
+        "integrity": {
+          "status": "PASSED",
+          "files": 804
+        },
+        "metrics": {
+          "status": "PASSED"
+        },
+        "numeric_model_replay": {
+          "status": "PASSED"
+        },
+        "original_fixed_prediction_resampling": {
+          "status": "PASSED"
+        },
+        "archived_evidence": {
+          "status": "PASSED"
+        },
+        "manuscript_tables": {
+          "status": "PASSED",
+          "basis": "recomputed_metrics_and_archived_protocol"
+        },
+        "figure_redraw": {
+          "status": "PASSED",
+          "scope": "Numerical/geometric recreation, not automatic cross-environment visual equivalence."
+        }
+      },
+      "new_fits": 0,
+      "full_training_reproduction_claimed": false,
+      "independent_validation_claimed": false,
+      "passed": true,
+      "full_supported_no_fit_verification_passed": true
+    }
+  },
+  "redrawn_unique_figure_pages": 10,
+  "combined_S2_pdf_is_an_additional_convenience_file": true,
+  "new_model_fits": 0
+}

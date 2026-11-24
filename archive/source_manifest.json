@@ -1,0 +1,285 @@
+{
+  "files": [
+    {
+      "file": "empirical_budget_core.py",
+      "sha256": "7e1c21a440094aae0672cd0cd4c2657e11c412a38e0f57361b962891459648ec",
+      "matches_frozen_reviewer_source_manifest": true
+    },
+    {
+      "file": "panel_reranking_core.py",
+      "sha256": "a847b72c3b46450349025fecf2388c06bee2fa1a58e830df69dd98c9c4177921",
+      "matches_frozen_reviewer_source_manifest": null
+    },
+    {
+      "file": "prepare_reviewer_control.py",
+      "sha256": "72e85237a08e6eab612ed83915e2278501092f765ba2577fdcc5eae543a4b804",
+      "matches_frozen_reviewer_source_manifest": true
+    },
+    {
+      "file": "reviewer_control_core.py",
+      "sha256": "cce1cb598f4566b8b3be915ae128abf062085902ae2aba567176289a1e7a90b9",
+      "matches_frozen_reviewer_source_manifest": true
+    },
+    {
+      "file": "run_empirical_budget_pilot.py",
+      "sha256": "ebbc4802731435e03cdb571ac948d07d1d8c86d285e6fb14858a7ea51d6cc36f",
+      "matches_frozen_reviewer_source_manifest": null
+    },
+    {
+      "file": "run_empirical_training_control.py",
+      "sha256": "6196def9bfa8ab96163e77ee94a0a2a219750ebdbd987ed2858b9a076a286c33",
+      "matches_frozen_reviewer_source_manifest": null
+    },
+    {
+      "file": "run_empirical_training_replication.py",
+      "sha256": "34f141a76c3ab405068b10519b7dccda481b51a3a521dd43bb1d0610371c1b36",
+      "matches_frozen_reviewer_source_manifest": null
+    },
+    {
+      "file": "run_framework_confirmation.py",
+      "sha256": "e968f20a8c1249ed92de5c10e39e33421fcfb063e911f3d755b341509dc99e3a",
+      "matches_frozen_reviewer_source_manifest": null
+    },
+    {
+      "file": "run_input_reuse_control.py",
+      "sha256": "b04e8a0fd11ce5f512223d01aaa77bf98afcacf8fca3c71c4fd20e4fcf6a8751",
+      "matches_frozen_reviewer_source_manifest": null
+    },
+    {
+      "file": "run_matched_predictor_check.py",
+      "sha256": "4b2ba7a7490eadb6f11ea2868e99d9c3236539d570bbe70e56146ca0c258bf66",
+      "matches_frozen_reviewer_source_manifest": null
+    },
+    {
+      "file": "run_panel_reranking_check.py",
+      "sha256": "6fbb8cd071a46f86ecbe31b8726aedb4a9ee5ac33158d50a50e7ce9d86bce652",
+      "matches_frozen_reviewer_source_manifest": null
+    },
+    {
+      "file": "run_ph_quota_check.py",
+      "sha256": "e24140b6f6475237a49c71a15c9e326ba4a71b06437b68283d401d6ef86fef9a",
+      "matches_frozen_reviewer_source_manifest": null
+    },
+    {
+      "file": "run_public_validation.py",
+      "sha256": "2d568e5a098529363e10980142e7a1b3ee6b892234140c64b33e903331531b5f",
+      "matches_frozen_reviewer_source_manifest": null
+    },
+    {
+      "file": "run_reviewer_control.py",
+      "sha256": "6e9d59853ee25f0edbf1c09308f739517063cfb7644f47feca0fa40bfe49e33b",
+      "matches_frozen_reviewer_source_manifest": true
+    },
+    {
+      "file": "run_shared_warm_freeze.py",
+      "sha256": "b229c9c9185329bdb887fb9190dcc33e05c50b1441d953348cdafaf714072dea",
+      "matches_frozen_reviewer_source_manifest": null
+    },
+    {
+      "file": "run_training_duration_check.py",
+      "sha256": "c9f87cb86bca8c728e2d8f14fa6a9f0563a97c6037831d01c5fc56993429b2c8",
+      "matches_frozen_reviewer_source_manifest": null
+    },
+    {
+      "file": "run_union_replication.py",
+      "sha256": "572685806e5df6fa9c2edecee6d9cd89162273cf6e23d27249bbfce5c5aea211",
+      "matches_frozen_reviewer_source_manifest": null
+    },
+    {
+      "file": "run_union_replication_v2.py",
+      "sha256": "f83b311f82f9d87288de8d272e2ba6fa458e32812d179ad9beb99eb9e6c127bb",
+      "matches_frozen_reviewer_source_manifest": null
+    },
+    {
+      "file": "shared_warm_freeze.py",
+      "sha256": "09a5e7bcfbfb606d36b91697281920cdcd06304a736cc4d17cd07ff3993017ad",
+      "matches_frozen_reviewer_source_manifest": null
+    },
+    {
+      "file": "src/hsi_e2e/__init__.py",
+      "sha256": "9f6dee469b48afb3d7158c8594649bf0c42b9997ad6d3389639be4be50d36c43",
+      "matches_frozen_reviewer_source_manifest": true
+    },
+    {
+      "file": "src/hsi_e2e/component_evaluator.py",
+      "sha256": "7c410f599f85e1c31f04b7cab14c51c0c8787dd35c3e0b718a299c6c0db36c8b",
+      "matches_frozen_reviewer_source_manifest": true
+    },
+    {
+      "file": "src/hsi_e2e/conditional_feedback.py",
+      "sha256": "83f8a322443cfe26bdd162e1ca8037d7d7dc47b35e61ff54b982860e4825242a",
+      "matches_frozen_reviewer_source_manifest": true
+    },
+    {
+      "file": "src/hsi_e2e/convergence.py",
+      "sha256": "d1f377192512c41b51455254ac6b76eca047c0fc0805f4b4d66df0327bff8f2f",
+      "matches_frozen_reviewer_source_manifest": true
+    },
+    {
+      "file": "src/hsi_e2e/convergence_confirmation.py",
+      "sha256": "fe0cf64c32458308ca14d37106c2b9d42f404af3372613954b5081b38aa96ecb",
+      "matches_frozen_reviewer_source_manifest": true
+    },
+    {
+      "file": "src/hsi_e2e/convergent_evaluation.py",
+      "sha256": "1d9e87c00b3d432a86ab8d7552a01e017e32bf042ff608caa7d9f3d3a3a1048c",
+      "matches_frozen_reviewer_source_manifest": true
+    },
+    {
+      "file": "src/hsi_e2e/development.py",
+      "sha256": "a31e7a634351ae42e5fd974ba4f3b2e280b1ab5704f721b4f552b07382115724",
+      "matches_frozen_reviewer_source_manifest": true
+    },
+    {
+      "file": "src/hsi_e2e/diagnostic_report.py",
+      "sha256": "dcf1c5dd271ac23633ee5381d62ca3fc9eb08d35b94571a0bb1398cbdc580131",
+      "matches_frozen_reviewer_source_manifest": true
+    },
+    {
+      "file": "src/hsi_e2e/direct_feedback.py",
+      "sha256": "834ef2494721582769223c6275c45bfb80afddad455f451e42552736a4d8a849",
+      "matches_frozen_reviewer_source_manifest": true
+    },
+    {
+      "file": "src/hsi_e2e/diverse_search.py",
+      "sha256": "d51ae0a3a7b7e9669cc9f95b9b883a586a55c6c6afcef67bf885f687e6c6bede",
+      "matches_frozen_reviewer_source_manifest": true
+    },
+    {
+      "file": "src/hsi_e2e/evaluation.py",
+      "sha256": "1c5a550336e37d8bb32135f7d4c48054b69ec1f7d6966f8715deb407fbe8b96a",
+      "matches_frozen_reviewer_source_manifest": true
+    },
+    {
+      "file": "src/hsi_e2e/formal_runtime.py",
+      "sha256": "ac738f83ce450863a05a07ce4c4037b0269617aee51a1a6d23650dcfc41d00d4",
+      "matches_frozen_reviewer_source_manifest": true
+    },
+    {
+      "file": "src/hsi_e2e/framework_screen.py",
+      "sha256": "252114ae6fb7e6759840f33961e503a6d2b6ef83c834ea688773f9f63c59256c",
+      "matches_frozen_reviewer_source_manifest": true
+    },
+    {
+      "file": "src/hsi_e2e/guarded_online.py",
+      "sha256": "d1d47fff368b0467f0ca976ab86ac7f51f8051c5c53d4637ca71882721fc97a6",
+      "matches_frozen_reviewer_source_manifest": true
+    },
+    {
+      "file": "src/hsi_e2e/hints.py",
+      "sha256": "93dd4725d498b4dcff638950a43313e1a88e726fe3a9988054c6b4ee16c3fedc",
+      "matches_frozen_reviewer_source_manifest": true
+    },
+    {
+      "file": "src/hsi_e2e/leaky_state.py",
+      "sha256": "df8ed3003c405b48355212b4b0a95d1a8dd72d8d6c0e06253965175a1b7369f4",
+      "matches_frozen_reviewer_source_manifest": true
+    },
+    {
+      "file": "src/hsi_e2e/local_search.py",
+      "sha256": "1e724c069a8f08d172f4d66cca9b1c744922e8199df87c0bc7d336b46f6e2507",
+      "matches_frozen_reviewer_source_manifest": true
+    },
+    {
+      "file": "src/hsi_e2e/mixed_greedy.py",
+      "sha256": "05f993e2cb6d8ad0caa7300b808353d88648c66f5bec6a402c30377d7420fc5c",
+      "matches_frozen_reviewer_source_manifest": true
+    },
+    {
+      "file": "src/hsi_e2e/mixed_restart.py",
+      "sha256": "66fd4a07eb9ea07fd562aca616a867ab6dfa6bfc92f5fba18775b2596be0869b",
+      "matches_frozen_reviewer_source_manifest": true
+    },
+    {
+      "file": "src/hsi_e2e/online_checkpoint.py",
+      "sha256": "dbb8a9a71690d48a58f7b5e8ebdfebda8c96497f7c8a2c7dcb89c0cbcce571bb",
+      "matches_frozen_reviewer_source_manifest": true
+    },
+    {
+      "file": "src/hsi_e2e/online_conditional.py",
+      "sha256": "876fb53e9490866b417d90df553084354f5395ab554b7c1afbb09627d2ebe471",
+      "matches_frozen_reviewer_source_manifest": true
+    },
+    {
+      "file": "src/hsi_e2e/oracle_swap.py",
+      "sha256": "a5b481339e783dffc31a283ea5fef2f8b060e113b90dab4a34baf2b6e6f6ecde",
+      "matches_frozen_reviewer_source_manifest": true
+    },
+    {
+      "file": "src/hsi_e2e/pool_boundary.py",
+      "sha256": "bd799e149798cd4ec7f95f549a5f790a41ed07e8bfbd865053a21841e9fa3361",
+      "matches_frozen_reviewer_source_manifest": true
+    },
+    {
+      "file": "src/hsi_e2e/population_feedback.py",
+      "sha256": "4ed7de131d83907a24a0772c3717b229e11df4d0c2605434861e59f3ab7f2b99",
+      "matches_frozen_reviewer_source_manifest": true
+    },
+    {
+      "file": "src/hsi_e2e/r2_reward.py",
+      "sha256": "3e33f8083858e82bf3be1668c37c3d97261ab9d169d764f1ec1ef9db86ff18ef",
+      "matches_frozen_reviewer_source_manifest": true
+    },
+    {
+      "file": "src/hsi_e2e/rata.py",
+      "sha256": "6d3257572b9722bfd19b163a659f2168896af31efa124e76cf3ff091578fc911",
+      "matches_frozen_reviewer_source_manifest": true
+    },
+    {
+      "file": "src/hsi_e2e/return_audit.py",
+      "sha256": "b5b78bd07d5a618ac8a55ba575eef9b485a76855896aea8e29c09af924bb2ccb",
+      "matches_frozen_reviewer_source_manifest": true
+    },
+    {
+      "file": "src/hsi_e2e/selector.py",
+      "sha256": "eacd0ab7927c6bab393d1e9933952ed28dee2d1406e08bc0d13e6c6874cbc2d4",
+      "matches_frozen_reviewer_source_manifest": true
+    },
+    {
+      "file": "src/hsi_e2e/shared_action.py",
+      "sha256": "8ac13c4ca8f4842fe0bd4438b809b2986caa9363c5b897e6bc4d56d3e3e2628d",
+      "matches_frozen_reviewer_source_manifest": true
+    },
+    {
+      "file": "src/hsi_e2e/stability.py",
+      "sha256": "811e6ab38c66b854b60045b591bebdcd10b511f3b5ea9a829d4f7a9fe48558b1",
+      "matches_frozen_reviewer_source_manifest": true
+    },
+    {
+      "file": "src/hsi_e2e/strict_model_io.py",
+      "sha256": "15842b669dc1038b9ea41650212fdc2bd93c85fa5019454e31cabb6f24d9d6a3",
+      "matches_frozen_reviewer_source_manifest": true
+    },
+    {
+      "file": "src/hsi_e2e/swap_rl.py",
+      "sha256": "d949b0035caec28dcc59a512ebcdab946fce9e247307e17b65c293cf447aa71d",
+      "matches_frozen_reviewer_source_manifest": true
+    },
+    {
+      "file": "src/hsi_e2e/swap_supervision.py",
+      "sha256": "b4bec89fe20a465d5e87fd139bb0eb88ce8bdcb704c913bd390ce89bae7a6692",
+      "matches_frozen_reviewer_source_manifest": true
+    },
+    {
+      "file": "src/hsi_e2e/terminal_anchor.py",
+      "sha256": "70f7443de5a75e46939b9ce6ef166354596eff6f99c3c1fa7ad414efe10716c4",
+      "matches_frozen_reviewer_source_manifest": true
+    },
+    {
+      "file": "src/hsi_e2e/top_ranking.py",
+      "sha256": "86d29364fc3c1f9a42e0568f81507bd8ccffd9c5d0d0f607bec5ff0abd3a7a88",
+      "matches_frozen_reviewer_source_manifest": true
+    },
+    {
+      "file": "src/hsi_e2e/training_snapshot.py",
+      "sha256": "2737f3d7f233b33efea1cde4f100e25341c7bc8786558c0553a8579738602c90",
+      "matches_frozen_reviewer_source_manifest": true
+    },
+    {
+      "file": "src/hsi_e2e/variable_k.py",
+      "sha256": "02836304c18ebf342b7833b080c88c5bfc40dccbb9a6e1c36a1fdfd7e228b563",
+      "matches_frozen_reviewer_source_manifest": true
+    }
+  ],
+  "note": "Unmodified historical source and imported local-module dependencies; not a certified clean-start training workflow."
+}

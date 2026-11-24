@@ -1,0 +1,51 @@
+{
+  "schema": "float64-le-shape-bytes-v1",
+  "arrays": {
+    "cgl_X": {
+      "shape": [
+        231,
+        117
+      ],
+      "sha256_float64_le_shape_bytes": "8cf4de1139b48e96e117ccffca666314b5e9747e10ff58a563cf02e105b6474c"
+    },
+    "cgl_y": {
+      "shape": [
+        231,
+        4
+      ],
+      "sha256_float64_le_shape_bytes": "68843fecde3b7ae156e703953c3bc59897233a136e15f9ec0e7c1fd0a3968ed2"
+    },
+    "corn_X": {
+      "shape": [
+        80,
+        700
+      ],
+      "sha256_float64_le_shape_bytes": "395fab17f5e4fbfe9a413722e9af3dd802b99a6e0c03a77714f0dc8fc93e6803"
+    },
+    "corn_y": {
+      "shape": [
+        80,
+        4
+      ],
+      "sha256_float64_le_shape_bytes": "8c49519526c165b1f3eec93e3cbe6979da6b54b44ce262130412fa0b3b67ef0c"
+    }
+  },
+  "raw_file_sha256": {
+    "CGL_nir.mat": "49b0de6188544f3e67ab7103608dc9d9e2e574d4d8e2d6b5989712f86befc9b8",
+    "corn.mat": "e28fd4be274a54ca57b1f2c67ef5a8bf4981f8314bcc73e4c64836fe658c46b5"
+  },
+  "targets": {
+    "cgl": [
+      "Casein",
+      "Glucose",
+      "Lactate",
+      "Moisture"
+    ],
+    "corn": [
+      "Moisture",
+      "Oil",
+      "Protein",
+      "Starch"
+    ]
+  }
+}

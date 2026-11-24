@@ -1,0 +1,3 @@
+-r requirements-recheck.txt
+matplotlib==3.10.3
+Pillow==12.3.0

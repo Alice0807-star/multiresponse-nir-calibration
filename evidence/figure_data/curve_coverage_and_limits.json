@@ -1,0 +1,77 @@
+[
+  {
+    "source": "cgl",
+    "target": "all",
+    "paired_records": 12,
+    "curves": 24,
+    "distinct_scores": 324,
+    "full_ylim": [
+      0.5617627349065976,
+      1.0207078489746464
+    ],
+    "tail_ylim": [
+      0.994913145131773,
+      1.0000816389639238
+    ]
+  },
+  {
+    "source": "corn",
+    "target": "Moisture",
+    "paired_records": 15,
+    "curves": 30,
+    "distinct_scores": 390,
+    "full_ylim": [
+      -0.17791957618406867,
+      1.0560911711953322
+    ],
+    "tail_ylim": [
+      0.9879593611888717,
+      1.0005731265585256
+    ]
+  },
+  {
+    "source": "corn",
+    "target": "Oil",
+    "paired_records": 15,
+    "curves": 30,
+    "distinct_scores": 390,
+    "full_ylim": [
+      -1.2099924424558401,
+      1.0961377273435156
+    ],
+    "tail_ylim": [
+      0.5368891179728491,
+      1.0129528911326255
+    ]
+  },
+  {
+    "source": "corn",
+    "target": "Protein",
+    "paired_records": 15,
+    "curves": 30,
+    "distinct_scores": 390,
+    "full_ylim": [
+      -1.0600546233199792,
+      1.0936932180691403
+    ],
+    "tail_ylim": [
+      0.7715531243942705,
+      1.0064738015113188
+    ]
+  },
+  {
+    "source": "corn",
+    "target": "Starch",
+    "paired_records": 15,
+    "curves": 30,
+    "distinct_scores": 390,
+    "full_ylim": [
+      -1.1880194241698068,
+      1.1004355170240379
+    ],
+    "tail_ylim": [
+      -0.06140640843620167,
+      1.0467872781795806
+    ]
+  }
+]
